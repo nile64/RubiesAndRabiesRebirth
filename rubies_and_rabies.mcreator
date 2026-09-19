@@ -1,14 +1,109 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "RabiesWaterDamage",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rabies_water_damage",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubies_and_rabies/damage_type/rabies_water_damage.json"
+        ]
+      },
+      "path": "~/Multidimensional/Effects/Rabies"
+    },
+    {
+      "name": "RabiesOnEffectActiveTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rabies_on_effect_active_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/RabiesOnEffectActiveTickProcedure.java"
+        ]
+      },
+      "path": "~/Multidimensional/Effects/Rabies"
+    },
+    {
+      "name": "Rabies",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rabies",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/potion/RabiesMobEffect.java"
+        ]
+      },
+      "path": "~/Multidimensional/Effects/Rabies"
+    },
+    {
+      "name": "RabiesDamage",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rabies_damage",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubies_and_rabies/damage_type/rabies_damage.json"
+        ]
+      },
+      "path": "~/Multidimensional/Effects/Rabies"
+    },
+    {
+      "name": "RabiesEffectExpires",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rabies_effect_expires",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/RabiesEffectExpiresProcedure.java"
+        ]
+      },
+      "path": "~/Multidimensional/Effects/Rabies"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "death.attack.rabies_water_damage.player": "%1$s jumped into fucking water with rabies and died whilst trying to escape %2$s like an idiot",
+      "death.attack.rabies_water_damage.item": "%1$s was put out of their misery in a very miserable way by %2$s using %3$s",
+      "death.attack.rabies_water_damage": "%1$s is a hydrophobic idiot.",
+      "effect.rubies_and_rabies.rabies": "Rabies",
+      "death.attack.rabies_damage.player": "%1$s was being chased by %2$s and took the easy way out and died from rabies",
+      "death.attack.rabies_damage": "Rabies got to  %1$s",
+      "death.attack.rabies_damage.item": "%1$s was so overwhelmed by %2$s (using %3$s) infecting them with rabies that they died instantly."
+    }
   },
   "metadata": {
     "files": [
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModMobEffects.java",
       "src/main/resources/pack.mcmeta",
       "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/java/net/mcreator/rubiesandrabies/RubiesAndRabiesMod.java"
@@ -44,7 +139,12 @@
         "children": [
           {
             "name": "Effects",
-            "children": []
+            "children": [
+              {
+                "name": "Rabies",
+                "children": []
+              }
+            ]
           }
         ]
       }
