@@ -19,7 +19,17 @@
     "children": [
       {
         "name": "Overworld",
-        "children": []
+        "children": [
+          {
+            "name": "Biomes",
+            "children": [
+              {
+                "name": "RacismBiome",
+                "children": []
+              }
+            ]
+          }
+        ]
       },
       {
         "name": "Nether",
