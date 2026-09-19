@@ -41,7 +41,12 @@
       },
       {
         "name": "Multidimensional",
-        "children": []
+        "children": [
+          {
+            "name": "Effects",
+            "children": []
+          }
+        ]
       }
     ]
   },
