@@ -16,7 +16,20 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Overworld",
+        "children": []
+      },
+      {
+        "name": "Nether",
+        "children": []
+      },
+      {
+        "name": "End",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "rubies_and_rabies",
