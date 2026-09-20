@@ -13,7 +13,7 @@ public class OldGrassNeighbourBlockChangesProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
 		if ((world.getBlockState(BlockPos.containing(x, y + 1, z))).getBlock() == Blocks.AIR) {
 			RubiesAndRabiesMod.queueServerWork(100, () -> {
-				if (!((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == Blocks.AIR)) {
+				if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == RubiesAndRabiesModBlocks.OLD_DIRT.get()) {
 					{
 						BlockPos _bp = BlockPos.containing(x, y, z);
 						BlockState _bs = RubiesAndRabiesModBlocks.OLD_GRASS.get().defaultBlockState();

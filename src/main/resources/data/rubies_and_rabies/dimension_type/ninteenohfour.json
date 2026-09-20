@@ -17,8 +17,6 @@
     "minecraft:visual/cloud_height": 192,
     "minecraft:visual/cloud_color": "#ccffffff",
     "minecraft:visual/ambient_light_color": "#0a0a0a",
-    "minecraft:visual/fog_start_distance": 5,
-    "minecraft:visual/fog_end_distance": 40,
     "minecraft:visual/sunrise_sunset_color": {
       "modifier": "override",
       "argument": 0

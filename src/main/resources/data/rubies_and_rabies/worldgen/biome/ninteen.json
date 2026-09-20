@@ -8,13 +8,8 @@
     "water_color": -15592942
   },
   "attributes": {
-    "minecraft:audio/background_music": {
-      "default": {
-        "sound": "rubies_and_rabies:nineteentheme",
-        "min_delay": 12000,
-        "max_delay": 24000,
-        "replace_current_music": true
-      }
+    "minecraft:audio/ambient_sounds": {
+      "loop": "rubies_and_rabies:nineteentheme"
     },
     "minecraft:visual/ambient_particles": [
       {
@@ -45,9 +40,7 @@
     [],
     [],
     [],
-    [
-      "minecraft:desert_well"
-    ],
+    [],
     [],
     [],
     [],

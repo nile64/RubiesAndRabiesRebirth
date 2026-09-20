@@ -30,7 +30,10 @@
         "Name": "rubies_and_rabies:old_dirt"
       },
       "default_fluid": {
-        "Name": "rubies_and_rabies:old_dirt"
+        "Name": "minecraft:bubble_column",
+        "Properties": {
+          "drag": "true"
+        }
       },
       "spawn_target": [],
       "noise": {
