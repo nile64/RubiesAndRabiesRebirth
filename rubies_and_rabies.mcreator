@@ -84,6 +84,32 @@
         ]
       },
       "path": "~/Multidimensional/Effects/Rabies"
+    },
+    {
+      "name": "Ruby",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubies_and_rabies/items/ruby.json",
+          "src/main/java/net/mcreator/rubiesandrabies/item/RubyItem.java",
+          "src/main/resources/assets/rubies_and_rabies/models/item/ruby.json"
+        ]
+      },
+      "path": "~/Multidimensional/Items/Rubies"
+    },
+    {
+      "name": "RubiesTab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubies_tab",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/CreativeTabs"
     }
   ],
   "variable_elements": [],
@@ -98,15 +124,19 @@
       "effect.rubies_and_rabies.rabies": "Rabies",
       "death.attack.rabies_damage.player": "%1$s was being chased by %2$s and took the easy way out and died from rabies",
       "death.attack.rabies_damage": "Rabies got to  %1$s",
-      "death.attack.rabies_damage.item": "%1$s was so overwhelmed by %2$s (using %3$s) infecting them with rabies that they died instantly."
+      "death.attack.rabies_damage.item": "%1$s was so overwhelmed by %2$s (using %3$s) infecting them with rabies that they died instantly.",
+      "item.rubies_and_rabies.ruby": "Ruby",
+      "item_group.rubies_and_rabies.rubies_tab": "Rubies"
     }
   },
   "metadata": {
     "files": [
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModMobEffects.java",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModItems.java",
       "src/main/resources/pack.mcmeta",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/java/net/mcreator/rubiesandrabies/RubiesAndRabiesMod.java"
+      "src/main/java/net/mcreator/rubiesandrabies/RubiesAndRabiesMod.java",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModTabs.java"
     ]
   },
   "foldersRoot": {
@@ -145,8 +175,21 @@
                 "children": []
               }
             ]
+          },
+          {
+            "name": "Items",
+            "children": [
+              {
+                "name": "Rubies",
+                "children": []
+              }
+            ]
           }
         ]
+      },
+      {
+        "name": "CreativeTabs",
+        "children": []
       }
     ]
   },

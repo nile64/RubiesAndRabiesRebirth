@@ -5,5 +5,7 @@
   "effect.rubies_and_rabies.rabies": "Rabies",
   "death.attack.rabies_damage.player": "%1$s was being chased by %2$s and took the easy way out and died from rabies",
   "death.attack.rabies_damage": "Rabies got to  %1$s",
-  "death.attack.rabies_damage.item": "%1$s was so overwhelmed by %2$s (using %3$s) infecting them with rabies that they died instantly."
+  "death.attack.rabies_damage.item": "%1$s was so overwhelmed by %2$s (using %3$s) infecting them with rabies that they died instantly.",
+  "item.rubies_and_rabies.ruby": "Ruby",
+  "item_group.rubies_and_rabies.rubies_tab": "Rubies"
 }
