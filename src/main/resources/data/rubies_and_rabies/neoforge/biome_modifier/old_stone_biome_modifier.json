@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "rubies_and_rabies:ninteen",
+  "features": "rubies_and_rabies:old_stone",
+  "step": "underground_ores"
+}

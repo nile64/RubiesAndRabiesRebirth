@@ -1,5 +1,5 @@
 {
-  "type": "rubies_and_rabies:ninteenohfour",
+  "type": "rubies_and_rabies:ninteenohfourdimension",
   "generator": {
     "type": "minecraft:noise",
     "biome_source": {
@@ -20,8 +20,8 @@
       ]
     },
     "settings": {
-      "name": "rubies_and_rabies:ninteenohfour",
-      "sea_level": 63,
+      "name": "rubies_and_rabies:ninteenohfourdimension",
+      "sea_level": 0,
       "legacy_random_source": false,
       "disable_mob_generation": false,
       "aquifers_enabled": true,
@@ -30,9 +30,9 @@
         "Name": "rubies_and_rabies:old_dirt"
       },
       "default_fluid": {
-        "Name": "minecraft:bubble_column",
+        "Name": "minecraft:water",
         "Properties": {
-          "drag": "true"
+          "level": "0"
         }
       },
       "spawn_target": [],

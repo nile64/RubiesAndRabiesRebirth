@@ -54,7 +54,7 @@
       "CUSTOM:Nineteenohfour"
     ],
     "destroyTool": "shovel",
-    "customDrop": "",
+    "customDrop": "CUSTOM:OldDirt",
     "dropAmount": 1,
     "xpAmountMin": 0,
     "xpAmountMax": 0,

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "rubies_and_rabies:block/old_bricks",
+    "up": "rubies_and_rabies:block/old_bricks",
+    "north": "rubies_and_rabies:block/old_bricks",
+    "east": "rubies_and_rabies:block/old_bricks",
+    "south": "rubies_and_rabies:block/old_bricks",
+    "west": "rubies_and_rabies:block/old_bricks",
+    "particle": "rubies_and_rabies:block/old_bricks"
+  }
+}

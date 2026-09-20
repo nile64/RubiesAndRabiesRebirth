@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:ore",
+  "config": {
+    "size": 16,
+    "discard_chance_on_air_exposure": 0,
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "rubies_and_rabies:old_grass"
+          }
+        },
+        "state": {
+          "Name": "rubies_and_rabies:old_stone"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "blockstate_match",
+          "block_state": {
+            "Name": "rubies_and_rabies:old_dirt"
+          }
+        },
+        "state": {
+          "Name": "rubies_and_rabies:old_stone"
+        }
+      }
+    ]
+  }
+}

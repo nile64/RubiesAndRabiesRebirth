@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "rubies_and_rabies:block/old_bricks_slab"
+    },
+    "type=top": {
+      "model": "rubies_and_rabies:block/old_bricks_slab_top"
+    },
+    "type=double": {
+      "model": "rubies_and_rabies:block/old_bricks_slab_full"
+    }
+  }
+}

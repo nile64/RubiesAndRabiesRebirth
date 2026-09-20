@@ -148,7 +148,7 @@ public class NinteenohfourPortalShape {
 				if (!isEmpty(state)) {
 					return height;
 				}
-				if (state.is(RubiesAndRabiesModBlocks.NINTEENOHFOUR_PORTAL.get())) {
+				if (state.is(RubiesAndRabiesModBlocks.NINTEENOHFOURDIMENSION_PORTAL.get())) {
 					portalBlockCount.increment();
 				}
 			}
@@ -157,7 +157,7 @@ public class NinteenohfourPortalShape {
 	}
 
 	private static boolean isEmpty(BlockState state) {
-		return state.isAir() || state.is(RubiesAndRabiesModBlocks.NINTEENOHFOUR_PORTAL.get());
+		return state.isAir() || state.is(RubiesAndRabiesModBlocks.NINTEENOHFOURDIMENSION_PORTAL.get());
 	}
 
 	public boolean isValid() {
@@ -165,7 +165,7 @@ public class NinteenohfourPortalShape {
 	}
 
 	public void createPortalBlocks(LevelAccessor level) {
-		BlockState portalState = RubiesAndRabiesModBlocks.NINTEENOHFOUR_PORTAL.get().defaultBlockState().setValue(NetherPortalBlock.AXIS, this.axis);
+		BlockState portalState = RubiesAndRabiesModBlocks.NINTEENOHFOURDIMENSION_PORTAL.get().defaultBlockState().setValue(NetherPortalBlock.AXIS, this.axis);
 		BlockPos.betweenClosed(this.bottomLeft, this.bottomLeft.relative(Direction.UP, this.height - 1).relative(this.rightDir, this.width - 1)).forEach(pos -> level.setBlock(pos, portalState, 18));
 	}
 
