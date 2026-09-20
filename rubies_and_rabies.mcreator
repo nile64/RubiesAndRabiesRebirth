@@ -159,7 +159,8 @@
       "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/resources/assets/rubies_and_rabies/sounds.json",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModTabs.java",
-      "src/main/resources/pack.mcmeta"
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModModels.java"
     ]
   },
   "foldersRoot": {
