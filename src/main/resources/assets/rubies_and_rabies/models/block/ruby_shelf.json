@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/blast_furnace_top",
+    "up": "minecraft:block/blast_furnace_top",
+    "north": "rubies_and_rabies:block/rubyshelf",
+    "east": "rubies_and_rabies:block/rubyshelf",
+    "south": "rubies_and_rabies:block/rubyshelf",
+    "west": "rubies_and_rabies:block/rubyshelf",
+    "particle": "minecraft:block/blast_furnace_top"
+  }
+}

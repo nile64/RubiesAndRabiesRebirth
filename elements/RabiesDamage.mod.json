@@ -1,0 +1,12 @@
+{
+  "_fv": 89,
+  "_type": "damagetype",
+  "definition": {
+    "exhaustion": 0.1,
+    "scaling": "never",
+    "effects": "hurt",
+    "normalDeathMessage": "Rabies got to  %1$s",
+    "itemDeathMessage": "%1$s was so overwhelmed by %2$s (using %3$s) infecting them with rabies that they died instantly.",
+    "playerDeathMessage": "%1$s was being chased by %2$s and took the easy way out and died from rabies"
+  }
+}
