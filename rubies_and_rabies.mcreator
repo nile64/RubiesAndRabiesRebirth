@@ -411,23 +411,26 @@
       "~OldDirt@CUSTOM:OldDirt",
       "~OldGrass@CUSTOM:OldGrass"
     ],
+    "ENTITIES:minecraft:undead": [
+      "~Mummy@CUSTOM:Mummy"
+    ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~OldTilesStairs@CUSTOM:OldTilesStairs",
       "~OldBricksStairs@CUSTOM:OldBricksStairs",
       "~PolishedOldStairs@CUSTOM:PolishedOldStairs",
-      "~OldBricksSlab@CUSTOM:OldBricksSlab",
       "~OldTilesSlab@CUSTOM:OldTilesSlab",
+      "~OldBricksSlab@CUSTOM:OldBricksSlab",
       "~PolishedOldSlab@CUSTOM:PolishedOldSlab",
-      "~OldPillar@CUSTOM:OldPillar",
       "~OldTiles@CUSTOM:OldTiles",
+      "~OldPillar@CUSTOM:OldPillar",
       "~OldBricks@CUSTOM:OldBricks",
       "~PolishedOld@CUSTOM:PolishedOld",
       "~ChisledOld@CUSTOM:ChisledOld",
       "~OldStone@CUSTOM:OldStone"
     ],
     "BLOCKS:minecraft:slabs": [
-      "~OldBricksSlab@CUSTOM:OldBricksSlab",
       "~OldTilesSlab@CUSTOM:OldTilesSlab",
+      "~OldBricksSlab@CUSTOM:OldBricksSlab",
       "~PolishedOldSlab@CUSTOM:PolishedOldSlab"
     ],
     "BLOCKS:minecraft:stairs": [
