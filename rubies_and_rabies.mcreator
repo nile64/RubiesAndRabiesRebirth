@@ -1,17 +1,163 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Ninteenohfour",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ninteenohfour",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubies_and_rabies/dimension/ninteenohfour.json",
+          "src/main/java/net/mcreator/rubiesandrabies/world/teleporter/NinteenohfourPortalShape.java",
+          "src/main/java/net/mcreator/rubiesandrabies/world/teleporter/NinteenohfourTeleporter.java",
+          "src/main/java/net/mcreator/rubiesandrabies/item/NinteenohfourItem.java",
+          "src/main/java/net/mcreator/rubiesandrabies/block/NinteenohfourPortalBlock.java",
+          "src/main/resources/assets/rubies_and_rabies/models/item/ninteenohfour.json",
+          "src/main/resources/assets/rubies_and_rabies/items/ninteenohfour.json",
+          "src/main/resources/data/rubies_and_rabies/dimension_type/ninteenohfour.json",
+          "src/main/resources/assets/rubies_and_rabies/blockstates/ninteenohfour_portal.json",
+          "src/main/resources/assets/rubies_and_rabies/models/block/ninteenohfour_portal_ns.json",
+          "src/main/resources/data/rubies_and_rabies/timeline/ninteenohfour_effects.json",
+          "src/main/resources/assets/rubies_and_rabies/models/block/ninteenohfour_portal_ew.json"
+        ]
+      },
+      "path": "~/1904"
+    },
+    {
+      "name": "OldGrass",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_grass",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubies_and_rabies/items/old_grass.json",
+          "src/main/resources/assets/rubies_and_rabies/models/item/old_grass.json",
+          "src/main/resources/data/rubies_and_rabies/loot_table/blocks/old_grass.json",
+          "src/main/resources/assets/rubies_and_rabies/models/block/old_grass.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/OldGrassBlock.java",
+          "src/main/resources/assets/rubies_and_rabies/blockstates/old_grass.json"
+        ]
+      },
+      "path": "~/1904"
+    },
+    {
+      "name": "OldDirt",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_dirt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubies_and_rabies/blockstates/old_dirt.json",
+          "src/main/resources/assets/rubies_and_rabies/models/block/old_dirt.json",
+          "src/main/resources/data/rubies_and_rabies/loot_table/blocks/old_dirt.json",
+          "src/main/resources/assets/rubies_and_rabies/models/item/old_dirt.json",
+          "src/main/resources/assets/rubies_and_rabies/items/old_dirt.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/OldDirtBlock.java"
+        ]
+      },
+      "path": "~/1904"
+    },
+    {
+      "name": "Ninteen",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ninteen",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubies_and_rabies/worldgen/biome/ninteen.json"
+        ]
+      },
+      "path": "~/1904"
+    },
+    {
+      "name": "OldGrassNeighbourBlockChanges",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_grass_neighbour_block_changes",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/OldGrassNeighbourBlockChangesProcedure.java"
+        ]
+      },
+      "path": "~/1904"
+    },
+    {
+      "name": "Nineteenohfour",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nineteenohfour",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/1904"
+    }
+  ],
   "variable_elements": [],
-  "sound_elements": [],
-  "tag_elements": {},
+  "sound_elements": [
+    {
+      "name": "nineteenfour",
+      "files": [
+        "1904_theme"
+      ],
+      "category": "ambient",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/shovel": [
+      "~OldDirt@CUSTOM:OldDirt",
+      "~OldGrass@CUSTOM:OldGrass"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Ninteenohfour@CUSTOM:OldGrass",
+      "~Ninteenohfour@CUSTOM:OldDirt"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.rubies_and_rabies.ninteenohfour": "1904 Switch",
+      "item.rubies_and_rabies.old_grass": "Old Grass",
+      "subtitles.nineteenfour": "",
+      "item.rubies_and_rabies.old_dirt": "Old Dirt",
+      "biome.rubies_and_rabies.ninteen": "Ninteen",
+      "item_group.rubies_and_rabies.nineteenohfour": "1904 Dimension"
+    }
   },
   "metadata": {
     "files": [
-      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModBlocks.java",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModItems.java",
+      "src/main/java/net/mcreator/rubiesandrabies/RubiesAndRabiesMod.java",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModSounds.java",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/java/net/mcreator/rubiesandrabies/RubiesAndRabiesMod.java"
+      "src/main/resources/assets/rubies_and_rabies/sounds.json",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModTabs.java",
+      "src/main/resources/pack.mcmeta"
     ]
   },
   "foldersRoot": {
@@ -47,6 +193,10 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "1904",
+        "children": []
       }
     ]
   },
