@@ -79,9 +79,9 @@ public class Modelmummy<T extends Entity> extends EntityModel<T> {
 			float headPitch) {
 		this.head.yRot = netHeadYaw / (180F / (float) Math.PI);
 		this.head.xRot = headPitch / (180F / (float) Math.PI);
-		this.right_arm.xRot = Mth.cos(limbSwing * 0.6662F + (float) Math.PI) * limbSwingAmount;
+		this.right_arm.zRot = Mth.cos(limbSwing * 0.6662F + (float) Math.PI) * limbSwingAmount;
 		this.left_leg.xRot = Mth.cos(limbSwing * 1.0F) * -1.0F * limbSwingAmount;
-		this.left_arm.xRot = Mth.cos(limbSwing * 0.6662F) * limbSwingAmount;
+		this.left_arm.zRot = Mth.cos(limbSwing * 0.6662F) * limbSwingAmount;
 		this.right_leg.xRot = Mth.cos(limbSwing * 1.0F) * 1.0F * limbSwingAmount;
 	}
 }
