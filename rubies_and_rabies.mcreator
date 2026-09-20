@@ -110,11 +110,149 @@
         "files": []
       },
       "path": "~/CreativeTabs"
+    },
+    {
+      "name": "RubyDoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubies_and_rabies/models/block/ruby_door_bottom_left.json",
+          "src/main/resources/assets/rubies_and_rabies/models/item/ruby_door.json",
+          "src/main/resources/assets/rubies_and_rabies/models/block/ruby_door_bottom_right.json",
+          "src/main/resources/assets/rubies_and_rabies/models/block/ruby_door_top_right.json",
+          "src/main/resources/assets/rubies_and_rabies/items/ruby_door.json",
+          "src/main/resources/data/rubies_and_rabies/loot_table/blocks/ruby_door.json",
+          "src/main/resources/assets/rubies_and_rabies/blockstates/ruby_door.json",
+          "src/main/resources/assets/rubies_and_rabies/models/block/ruby_door_bottom_left_open.json",
+          "src/main/resources/assets/rubies_and_rabies/models/block/ruby_door_top_left.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/RubyDoorBlock.java",
+          "src/main/resources/assets/rubies_and_rabies/models/block/ruby_door_bottom_right_open.json",
+          "src/main/resources/assets/rubies_and_rabies/models/block/ruby_door_top_left_open.json",
+          "src/main/resources/assets/rubies_and_rabies/models/block/ruby_door_top_right_open.json"
+        ]
+      },
+      "path": "~/Multidimensional/Blocks"
+    },
+    {
+      "name": "RubyBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubies_and_rabies/blockstates/ruby_block.json",
+          "src/main/resources/data/rubies_and_rabies/loot_table/blocks/ruby_block.json",
+          "src/main/resources/assets/rubies_and_rabies/models/block/ruby_block.json",
+          "src/main/resources/assets/rubies_and_rabies/items/ruby_block.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/RubyBlockBlock.java",
+          "src/main/resources/assets/rubies_and_rabies/models/item/ruby_block.json"
+        ]
+      },
+      "path": "~/Multidimensional/Blocks"
+    },
+    {
+      "name": "RubyBricks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_bricks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/block/RubyBricksBlock.java",
+          "src/main/resources/data/rubies_and_rabies/loot_table/blocks/ruby_bricks.json",
+          "src/main/resources/assets/rubies_and_rabies/models/item/ruby_bricks.json",
+          "src/main/resources/assets/rubies_and_rabies/blockstates/ruby_bricks.json",
+          "src/main/resources/assets/rubies_and_rabies/models/block/ruby_bricks.json",
+          "src/main/resources/assets/rubies_and_rabies/items/ruby_bricks.json"
+        ]
+      },
+      "path": "~/Multidimensional/Blocks"
+    },
+    {
+      "name": "RubyTiles",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_tiles",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubies_and_rabies/models/block/ruby_tiles.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/RubyTilesBlock.java",
+          "src/main/resources/assets/rubies_and_rabies/blockstates/ruby_tiles.json",
+          "src/main/resources/data/rubies_and_rabies/loot_table/blocks/ruby_tiles.json",
+          "src/main/resources/assets/rubies_and_rabies/models/item/ruby_tiles.json",
+          "src/main/resources/assets/rubies_and_rabies/items/ruby_tiles.json"
+        ]
+      },
+      "path": "~/Multidimensional/Blocks"
+    },
+    {
+      "name": "RubyTetrahexadronBricks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_tetrahexadron_bricks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/block/RubyTetrahexadronBricksBlock.java",
+          "src/main/resources/assets/rubies_and_rabies/models/block/ruby_tetrahexadron_bricks.json",
+          "src/main/resources/assets/rubies_and_rabies/blockstates/ruby_tetrahexadron_bricks.json",
+          "src/main/resources/assets/rubies_and_rabies/models/item/ruby_tetrahexadron_bricks.json",
+          "src/main/resources/data/rubies_and_rabies/loot_table/blocks/ruby_tetrahexadron_bricks.json",
+          "src/main/resources/assets/rubies_and_rabies/items/ruby_tetrahexadron_bricks.json"
+        ]
+      },
+      "path": "~/Multidimensional/Blocks"
+    },
+    {
+      "name": "RubyShelf",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_shelf",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubies_and_rabies/items/ruby_shelf.json",
+          "src/main/resources/assets/rubies_and_rabies/models/item/ruby_shelf.json",
+          "src/main/resources/data/rubies_and_rabies/loot_table/blocks/ruby_shelf.json",
+          "src/main/resources/assets/rubies_and_rabies/blockstates/ruby_shelf.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/RubyShelfBlock.java",
+          "src/main/resources/assets/rubies_and_rabies/models/block/ruby_shelf.json"
+        ]
+      },
+      "path": "~/Multidimensional/Blocks"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
-  "tag_elements": {},
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~RubyShelf@CUSTOM:RubyShelf",
+      "~RubyTetrahexadronBricks@CUSTOM:RubyTetrahexadronBricks",
+      "~RubyBricks@CUSTOM:RubyBricks",
+      "~RubyTiles@CUSTOM:RubyTiles",
+      "~RubyBlock@CUSTOM:RubyBlock",
+      "~RubyDoor@CUSTOM:RubyDoor"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~RubyShelf@CUSTOM:RubyShelf",
+      "~RubyTetrahexadronBricks@CUSTOM:RubyTetrahexadronBricks",
+      "~RubyBricks@CUSTOM:RubyBricks",
+      "~RubyTiles@CUSTOM:RubyTiles",
+      "~RubyBlock@CUSTOM:RubyBlock",
+      "~RubyDoor@CUSTOM:RubyDoor"
+    ],
+    "BLOCKS:minecraft:doors": [
+      "~RubyDoor@CUSTOM:RubyDoor"
+    ],
+    "BLOCKS:minecraft:mob_interactable_doors": [
+      "~RubyDoor@CUSTOM:RubyDoor"
+    ]
+  },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
@@ -126,12 +264,19 @@
       "death.attack.rabies_damage": "Rabies got to  %1$s",
       "death.attack.rabies_damage.item": "%1$s was so overwhelmed by %2$s (using %3$s) infecting them with rabies that they died instantly.",
       "item.rubies_and_rabies.ruby": "Ruby",
-      "item_group.rubies_and_rabies.rubies_tab": "Rubies"
+      "item_group.rubies_and_rabies.rubies_tab": "Rubies",
+      "item.rubies_and_rabies.ruby_door": "Ruby Door",
+      "item.rubies_and_rabies.ruby_block": "Ruby Block",
+      "item.rubies_and_rabies.ruby_bricks": "Ruby Bricks",
+      "item.rubies_and_rabies.ruby_tiles": "Ruby Tiles",
+      "item.rubies_and_rabies.ruby_tetrahexadron_bricks": "Ruby Tetrahexadron Bricks",
+      "item.rubies_and_rabies.ruby_shelf": "Ruby Shelf"
     }
   },
   "metadata": {
     "files": [
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModMobEffects.java",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModBlocks.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModItems.java",
       "src/main/resources/pack.mcmeta",
       "src/main/resources/META-INF/neoforge.mods.toml",
@@ -184,6 +329,10 @@
                 "children": []
               }
             ]
+          },
+          {
+            "name": "Blocks",
+            "children": []
           }
         ]
       },

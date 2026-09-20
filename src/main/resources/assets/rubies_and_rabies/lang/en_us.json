@@ -7,5 +7,11 @@
   "death.attack.rabies_damage": "Rabies got to  %1$s",
   "death.attack.rabies_damage.item": "%1$s was so overwhelmed by %2$s (using %3$s) infecting them with rabies that they died instantly.",
   "item.rubies_and_rabies.ruby": "Ruby",
-  "item_group.rubies_and_rabies.rubies_tab": "Rubies"
+  "item_group.rubies_and_rabies.rubies_tab": "Rubies",
+  "item.rubies_and_rabies.ruby_door": "Ruby Door",
+  "item.rubies_and_rabies.ruby_block": "Ruby Block",
+  "item.rubies_and_rabies.ruby_bricks": "Ruby Bricks",
+  "item.rubies_and_rabies.ruby_tiles": "Ruby Tiles",
+  "item.rubies_and_rabies.ruby_tetrahexadron_bricks": "Ruby Tetrahexadron Bricks",
+  "item.rubies_and_rabies.ruby_shelf": "Ruby Shelf"
 }

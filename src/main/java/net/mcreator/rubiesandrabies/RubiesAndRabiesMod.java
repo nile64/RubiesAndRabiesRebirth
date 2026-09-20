@@ -23,6 +23,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.rubiesandrabies.init.RubiesAndRabiesModTabs;
 import net.mcreator.rubiesandrabies.init.RubiesAndRabiesModMobEffects;
 import net.mcreator.rubiesandrabies.init.RubiesAndRabiesModItems;
+import net.mcreator.rubiesandrabies.init.RubiesAndRabiesModBlocks;
 
 import javax.annotation.Nullable;
 
@@ -50,6 +51,7 @@ public class RubiesAndRabiesMod {
 		// End of user code block mod constructor
 		NeoForge.EVENT_BUS.register(this);
 		modEventBus.addListener(this::registerNetworking);
+		RubiesAndRabiesModBlocks.REGISTRY.register(modEventBus);
 		RubiesAndRabiesModItems.REGISTRY.register(modEventBus);
 		RubiesAndRabiesModTabs.REGISTRY.register(modEventBus);
 		RubiesAndRabiesModMobEffects.REGISTRY.register(modEventBus);
