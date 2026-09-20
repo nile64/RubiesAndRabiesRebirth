@@ -37,6 +37,14 @@ public class RubiesAndRabiesModItems {
 	public static final DeferredItem<Item> POLISHED_OLD_STAIRS;
 	public static final DeferredItem<Item> OLD_BRICKS_STAIRS;
 	public static final DeferredItem<Item> OLD_TILES_STAIRS;
+	public static final DeferredItem<Item> OLDEN_PLANK;
+	public static final DeferredItem<Item> OLDEN_LOG;
+	public static final DeferredItem<Item> OLDEN_PLANK_SLAB;
+	public static final DeferredItem<Item> OLDEN_PLANK_STAIRS;
+	public static final DeferredItem<Item> OLDEN_PLANK_FENCE;
+	public static final DeferredItem<Item> OLDEN_PLANK_PRESSURE_PLATE;
+	public static final DeferredItem<Item> OLDEN_BULB;
+	public static final DeferredItem<Item> OLDEN_CRATE;
 	static {
 		NINTEENOHFOURDIMENSION = register("ninteenohfourdimension", NinteenohfourItem::new);
 		OLD_GRASS = block(RubiesAndRabiesModBlocks.OLD_GRASS);
@@ -55,6 +63,14 @@ public class RubiesAndRabiesModItems {
 		POLISHED_OLD_STAIRS = block(RubiesAndRabiesModBlocks.POLISHED_OLD_STAIRS);
 		OLD_BRICKS_STAIRS = block(RubiesAndRabiesModBlocks.OLD_BRICKS_STAIRS);
 		OLD_TILES_STAIRS = block(RubiesAndRabiesModBlocks.OLD_TILES_STAIRS);
+		OLDEN_PLANK = block(RubiesAndRabiesModBlocks.OLDEN_PLANK);
+		OLDEN_LOG = block(RubiesAndRabiesModBlocks.OLDEN_LOG);
+		OLDEN_PLANK_SLAB = block(RubiesAndRabiesModBlocks.OLDEN_PLANK_SLAB);
+		OLDEN_PLANK_STAIRS = block(RubiesAndRabiesModBlocks.OLDEN_PLANK_STAIRS);
+		OLDEN_PLANK_FENCE = block(RubiesAndRabiesModBlocks.OLDEN_PLANK_FENCE);
+		OLDEN_PLANK_PRESSURE_PLATE = block(RubiesAndRabiesModBlocks.OLDEN_PLANK_PRESSURE_PLATE);
+		OLDEN_BULB = block(RubiesAndRabiesModBlocks.OLDEN_BULB);
+		OLDEN_CRATE = block(RubiesAndRabiesModBlocks.OLDEN_CRATE);
 	}
 
 	// Start of user code block custom items

@@ -1,7 +1,7 @@
 {
   "textures": {
-    "particle": "minecraft:block/acacia_planks",
-    "portal": "minecraft:block/acacia_planks"
+    "particle": "rubies_and_rabies:block/old_chisled",
+    "portal": "rubies_and_rabies:block/old_chisled"
   },
   "elements": [
     {

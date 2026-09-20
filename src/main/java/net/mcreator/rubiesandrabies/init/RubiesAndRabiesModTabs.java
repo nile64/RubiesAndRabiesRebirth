@@ -38,6 +38,14 @@ public class RubiesAndRabiesModTabs {
 				tabData.accept(RubiesAndRabiesModBlocks.POLISHED_OLD_STAIRS.get().asItem());
 				tabData.accept(RubiesAndRabiesModBlocks.OLD_BRICKS_STAIRS.get().asItem());
 				tabData.accept(RubiesAndRabiesModBlocks.OLD_TILES_STAIRS.get().asItem());
+				tabData.accept(RubiesAndRabiesModBlocks.OLDEN_PLANK.get().asItem());
+				tabData.accept(RubiesAndRabiesModBlocks.OLDEN_LOG.get().asItem());
+				tabData.accept(RubiesAndRabiesModBlocks.OLDEN_PLANK_SLAB.get().asItem());
+				tabData.accept(RubiesAndRabiesModBlocks.OLDEN_PLANK_STAIRS.get().asItem());
+				tabData.accept(RubiesAndRabiesModBlocks.OLDEN_PLANK_FENCE.get().asItem());
+				tabData.accept(RubiesAndRabiesModBlocks.OLDEN_PLANK_PRESSURE_PLATE.get().asItem());
+				tabData.accept(RubiesAndRabiesModBlocks.OLDEN_BULB.get().asItem());
+				tabData.accept(RubiesAndRabiesModBlocks.OLDEN_CRATE.get().asItem());
 			}).build());
 
 	@SubscribeEvent

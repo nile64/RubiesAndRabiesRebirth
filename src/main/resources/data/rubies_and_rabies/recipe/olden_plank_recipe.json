@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "rubies_and_rabies:olden_log"
+  ],
+  "result": {
+    "id": "rubies_and_rabies:olden_plank",
+    "count": 4
+  }
+}

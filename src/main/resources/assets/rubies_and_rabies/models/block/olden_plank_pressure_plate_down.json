@@ -1,0 +1,7 @@
+{
+  "parent": "block/pressure_plate_down",
+  "textures": {
+    "texture": "rubies_and_rabies:block/olden_plank",
+    "particle": "rubies_and_rabies:block/olden_plank"
+  }
+}

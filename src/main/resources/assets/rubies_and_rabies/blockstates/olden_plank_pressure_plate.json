@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "rubies_and_rabies:block/olden_plank_pressure_plate"
+    },
+    "powered=true": {
+      "model": "rubies_and_rabies:block/olden_plank_pressure_plate_down"
+    }
+  }
+}

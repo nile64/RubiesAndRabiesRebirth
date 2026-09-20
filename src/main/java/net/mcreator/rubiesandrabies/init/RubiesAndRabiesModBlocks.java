@@ -31,6 +31,14 @@ public class RubiesAndRabiesModBlocks {
 	public static final DeferredBlock<Block> POLISHED_OLD_STAIRS;
 	public static final DeferredBlock<Block> OLD_BRICKS_STAIRS;
 	public static final DeferredBlock<Block> OLD_TILES_STAIRS;
+	public static final DeferredBlock<Block> OLDEN_PLANK;
+	public static final DeferredBlock<Block> OLDEN_LOG;
+	public static final DeferredBlock<Block> OLDEN_PLANK_SLAB;
+	public static final DeferredBlock<Block> OLDEN_PLANK_STAIRS;
+	public static final DeferredBlock<Block> OLDEN_PLANK_FENCE;
+	public static final DeferredBlock<Block> OLDEN_PLANK_PRESSURE_PLATE;
+	public static final DeferredBlock<Block> OLDEN_BULB;
+	public static final DeferredBlock<Block> OLDEN_CRATE;
 	static {
 		NINTEENOHFOURDIMENSION_PORTAL = register("ninteenohfourdimension_portal", NinteenohfourPortalBlock::new);
 		OLD_GRASS = register("old_grass", OldGrassBlock::new);
@@ -47,6 +55,14 @@ public class RubiesAndRabiesModBlocks {
 		POLISHED_OLD_STAIRS = register("polished_old_stairs", PolishedOldStairsBlock::new);
 		OLD_BRICKS_STAIRS = register("old_bricks_stairs", OldBricksStairsBlock::new);
 		OLD_TILES_STAIRS = register("old_tiles_stairs", OldTilesStairsBlock::new);
+		OLDEN_PLANK = register("olden_plank", OldenPlankBlock::new);
+		OLDEN_LOG = register("olden_log", OldenLogBlock::new);
+		OLDEN_PLANK_SLAB = register("olden_plank_slab", OldenPlankSlabBlock::new);
+		OLDEN_PLANK_STAIRS = register("olden_plank_stairs", OldenPlankStairsBlock::new);
+		OLDEN_PLANK_FENCE = register("olden_plank_fence", OldenPlankFenceBlock::new);
+		OLDEN_PLANK_PRESSURE_PLATE = register("olden_plank_pressure_plate", OldenPlankPressurePlateBlock::new);
+		OLDEN_BULB = register("olden_bulb", OldenBulbBlock::new);
+		OLDEN_CRATE = register("olden_crate", OldenCrateBlock::new);
 	}
 
 	// Start of user code block custom blocks

@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "rubies_and_rabies:block/olden_plank",
+    "particle": "rubies_and_rabies:block/olden_plank"
+  }
+}

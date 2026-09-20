@@ -46,8 +46,8 @@
     "minMonsterSpawnLightLimit": 0,
     "maxMonsterSpawnLightLimit": 7,
     "monsterSpawnBlockLightLimit": 0,
-    "portalFrame": "Blocks.TUFF_BRICKS",
-    "portalParticles": "PORTAL",
+    "portalFrame": "CUSTOM:OldBricks",
+    "portalParticles": "PALE_OAK_LEAVES",
     "portalLuminance": 15,
     "portalSound": "block.portal.ambient",
     "enableIgniter": true,
@@ -61,7 +61,7 @@
       "CUSTOM:Nineteenohfour"
     ],
     "texture": "minecraft:clock_00",
-    "portalTexture": "minecraft:acacia_planks",
+    "portalTexture": "old_chisled",
     "enablePortal": true
   }
 }

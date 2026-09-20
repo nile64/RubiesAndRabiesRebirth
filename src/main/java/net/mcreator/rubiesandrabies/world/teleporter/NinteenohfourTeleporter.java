@@ -116,7 +116,7 @@ public class NinteenohfourTeleporter {
 			for (int box = -1; box < 2; box++) {
 				for (int width = 0; width < 2; width++) {
 					for (int height = -1; height < 3; height++) {
-						BlockState blockState = height < 0 ? Blocks.TUFF_BRICKS.defaultBlockState() : Blocks.AIR.defaultBlockState();
+						BlockState blockState = height < 0 ? RubiesAndRabiesModBlocks.OLD_BRICKS.get().defaultBlockState() : Blocks.AIR.defaultBlockState();
 						mutable.setWithOffset(closestFullPosition, width * direction.getStepX() + box * clockWise.getStepX(), height, width * direction.getStepZ() + box * clockWise.getStepZ());
 						this.level.setBlockAndUpdate(mutable, blockState);
 					}
@@ -127,7 +127,7 @@ public class NinteenohfourTeleporter {
 			for (int height = -1; height < 4; height++) {
 				if (width == -1 || width == 2 || height == -1 || height == 3) {
 					mutable.setWithOffset(closestFullPosition, width * direction.getStepX(), height, width * direction.getStepZ());
-					this.level.setBlock(mutable, Blocks.TUFF_BRICKS.defaultBlockState(), 3);
+					this.level.setBlock(mutable, RubiesAndRabiesModBlocks.OLD_BRICKS.get().defaultBlockState(), 3);
 				}
 			}
 		}

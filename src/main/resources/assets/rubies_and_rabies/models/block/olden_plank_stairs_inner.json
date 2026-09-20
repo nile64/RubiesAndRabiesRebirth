@@ -1,0 +1,9 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "particle": "rubies_and_rabies:block/olden_plank",
+    "bottom": "rubies_and_rabies:block/olden_plank",
+    "top": "rubies_and_rabies:block/olden_plank",
+    "side": "rubies_and_rabies:block/olden_plank"
+  }
+}
