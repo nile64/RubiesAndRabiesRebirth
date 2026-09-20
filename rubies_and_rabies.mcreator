@@ -298,6 +298,15 @@
                 "children": []
               }
             ]
+          },
+          {
+            "name": "Structures",
+            "children": [
+              {
+                "name": "RubyTraderHouse",
+                "children": []
+              }
+            ]
           }
         ]
       },
