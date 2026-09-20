@@ -5,5 +5,7 @@
   "item.rubies_and_rabies.old_dirt": "Old Dirt",
   "biome.rubies_and_rabies.ninteen": "Ninteen",
   "item_group.rubies_and_rabies.nineteenohfour": "1904 Dimension",
-  "subtitles.nineteentheme": ""
+  "subtitles.nineteentheme": "",
+  "entity.rubies_and_rabies.mummy": "Mummy",
+  "item.rubies_and_rabies.mummy_spawn_egg": "Mummy Spawn Egg"
 }

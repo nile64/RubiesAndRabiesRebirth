@@ -23,6 +23,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.rubiesandrabies.init.RubiesAndRabiesModTabs;
 import net.mcreator.rubiesandrabies.init.RubiesAndRabiesModSounds;
 import net.mcreator.rubiesandrabies.init.RubiesAndRabiesModItems;
+import net.mcreator.rubiesandrabies.init.RubiesAndRabiesModEntities;
 import net.mcreator.rubiesandrabies.init.RubiesAndRabiesModBlocks;
 
 import javax.annotation.Nullable;
@@ -54,6 +55,7 @@ public class RubiesAndRabiesMod {
 		RubiesAndRabiesModSounds.REGISTRY.register(modEventBus);
 		RubiesAndRabiesModBlocks.REGISTRY.register(modEventBus);
 		RubiesAndRabiesModItems.REGISTRY.register(modEventBus);
+		RubiesAndRabiesModEntities.REGISTRY.register(modEventBus);
 		RubiesAndRabiesModTabs.REGISTRY.register(modEventBus);
 		// Start of user code block mod init
 		// End of user code block mod init

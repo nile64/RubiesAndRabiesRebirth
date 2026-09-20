@@ -31,6 +31,8 @@ public class RubiesAndRabiesModTabs {
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(RubiesAndRabiesModItems.NINTEENOHFOUR.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
+			tabData.accept(RubiesAndRabiesModItems.MUMMY_SPAWN_EGG.get());
 		}
 	}
 }

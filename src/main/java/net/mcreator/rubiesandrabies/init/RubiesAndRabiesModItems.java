@@ -8,6 +8,7 @@ import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredHolder;
 
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.item.SpawnEggItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
@@ -21,10 +22,12 @@ public class RubiesAndRabiesModItems {
 	public static final DeferredItem<Item> NINTEENOHFOUR;
 	public static final DeferredItem<Item> OLD_GRASS;
 	public static final DeferredItem<Item> OLD_DIRT;
+	public static final DeferredItem<Item> MUMMY_SPAWN_EGG;
 	static {
 		NINTEENOHFOUR = register("ninteenohfour", NinteenohfourItem::new);
 		OLD_GRASS = block(RubiesAndRabiesModBlocks.OLD_GRASS);
 		OLD_DIRT = block(RubiesAndRabiesModBlocks.OLD_DIRT);
+		MUMMY_SPAWN_EGG = register("mummy_spawn_egg", properties -> new SpawnEggItem(properties.spawnEgg(RubiesAndRabiesModEntities.MUMMY.get())));
 	}
 
 	// Start of user code block custom items
