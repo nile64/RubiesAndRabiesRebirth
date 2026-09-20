@@ -152,6 +152,9 @@
     "BLOCKS:minecraft:overworld_carver_replaceables": [
       "~Ninteenohfour@CUSTOM:OldGrass",
       "~Ninteenohfour@CUSTOM:OldDirt"
+    ],
+    "ENTITIES:minecraft:undead": [
+      "~Mummy@CUSTOM:Mummy"
     ]
   },
   "tab_element_order": {},

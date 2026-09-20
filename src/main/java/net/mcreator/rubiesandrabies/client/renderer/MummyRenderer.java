@@ -9,7 +9,7 @@ import net.mcreator.rubiesandrabies.entity.MummyEntity;
 import net.mcreator.rubiesandrabies.client.model.Modelmummy;
 
 public class MummyRenderer extends MobRenderer<MummyEntity, LivingEntityRenderState, Modelmummy> {
-	private final Identifier entityTexture = Identifier.parse("rubies_and_rabies:textures/entities/mummy.png");
+	private final Identifier entityTexture = Identifier.parse("rubies_and_rabies:textures/entities/mummy2.png");
 
 	public MummyRenderer(EntityRendererProvider.Context context) {
 		super(context, new Modelmummy(context.bakeLayer(Modelmummy.LAYER_LOCATION)), 0.5f);
