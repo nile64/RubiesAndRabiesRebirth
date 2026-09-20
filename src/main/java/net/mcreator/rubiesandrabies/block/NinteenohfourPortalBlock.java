@@ -72,14 +72,14 @@ public class NinteenohfourPortalBlock extends NetherPortalBlock {
 	@Override
 	@Nullable
 	public TeleportTransition getPortalDestination(ServerLevel currentLevel, Entity entity, BlockPos portalEntryPos) {
-		ResourceKey<Level> newDimension = currentLevel.dimension() == ResourceKey.create(Registries.DIMENSION, Identifier.parse("rubies_and_rabies:ninteenohfourdimension"))
+		ResourceKey<Level> newDimension = currentLevel.dimension() == ResourceKey.create(Registries.DIMENSION, Identifier.parse("rubies_and_rabies:ninteenohfour"))
 				? Level.OVERWORLD
-				: ResourceKey.create(Registries.DIMENSION, Identifier.parse("rubies_and_rabies:ninteenohfourdimension"));
+				: ResourceKey.create(Registries.DIMENSION, Identifier.parse("rubies_and_rabies:ninteenohfour"));
 		ServerLevel newLevel = currentLevel.getServer().getLevel(newDimension);
 		if (newLevel == null) {
 			return null;
 		} else {
-			boolean toNether = newLevel.dimension() == ResourceKey.create(Registries.DIMENSION, Identifier.parse("rubies_and_rabies:ninteenohfourdimension"));
+			boolean toNether = newLevel.dimension() == ResourceKey.create(Registries.DIMENSION, Identifier.parse("rubies_and_rabies:ninteenohfour"));
 			WorldBorder newWorldBorder = newLevel.getWorldBorder();
 			double teleportationScale = DimensionType.getTeleportationScale(currentLevel.dimensionType(), newLevel.dimensionType());
 			BlockPos approximateExitPos = newWorldBorder.clampToBounds(entity.getX() * teleportationScale, entity.getY(), entity.getZ() * teleportationScale);

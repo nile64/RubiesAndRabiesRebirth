@@ -8,18 +8,18 @@
       "registry_name": "ninteenohfour",
       "metadata": {
         "files": [
-          "src/main/resources/data/rubies_and_rabies/dimension/ninteenohfour.json",
+          "src/main/resources/assets/rubies_and_rabies/models/block/ninteenohfour_portal_ns.json",
+          "src/main/resources/assets/rubies_and_rabies/models/item/ninteenohfour.json",
+          "src/main/resources/data/rubies_and_rabies/dimension_type/ninteenohfour.json",
+          "src/main/resources/assets/rubies_and_rabies/items/ninteenohfour.json",
           "src/main/java/net/mcreator/rubiesandrabies/world/teleporter/NinteenohfourPortalShape.java",
+          "src/main/resources/data/rubies_and_rabies/timeline/ninteenohfour_fixed.json",
+          "src/main/resources/assets/rubies_and_rabies/blockstates/ninteenohfour_portal.json",
+          "src/main/resources/assets/rubies_and_rabies/models/block/ninteenohfour_portal_ew.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/NinteenohfourPortalBlock.java",
           "src/main/java/net/mcreator/rubiesandrabies/world/teleporter/NinteenohfourTeleporter.java",
           "src/main/java/net/mcreator/rubiesandrabies/item/NinteenohfourItem.java",
-          "src/main/java/net/mcreator/rubiesandrabies/block/NinteenohfourPortalBlock.java",
-          "src/main/resources/data/rubies_and_rabies/timeline/ninteenohfour_fixed.json",
-          "src/main/resources/assets/rubies_and_rabies/models/item/ninteenohfour.json",
-          "src/main/resources/assets/rubies_and_rabies/items/ninteenohfour.json",
-          "src/main/resources/data/rubies_and_rabies/dimension_type/ninteenohfour.json",
-          "src/main/resources/assets/rubies_and_rabies/blockstates/ninteenohfour_portal.json",
-          "src/main/resources/assets/rubies_and_rabies/models/block/ninteenohfour_portal_ns.json",
-          "src/main/resources/assets/rubies_and_rabies/models/block/ninteenohfour_portal_ew.json"
+          "src/main/resources/data/rubies_and_rabies/dimension/ninteenohfour.json"
         ]
       },
       "path": "~/1904"
@@ -32,12 +32,12 @@
       "registry_name": "old_grass",
       "metadata": {
         "files": [
+          "src/main/resources/assets/rubies_and_rabies/blockstates/old_grass.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/OldGrassBlock.java",
+          "src/main/resources/data/rubies_and_rabies/loot_table/blocks/old_grass.json",
           "src/main/resources/assets/rubies_and_rabies/items/old_grass.json",
           "src/main/resources/assets/rubies_and_rabies/models/item/old_grass.json",
-          "src/main/resources/data/rubies_and_rabies/loot_table/blocks/old_grass.json",
-          "src/main/resources/assets/rubies_and_rabies/models/block/old_grass.json",
-          "src/main/java/net/mcreator/rubiesandrabies/block/OldGrassBlock.java",
-          "src/main/resources/assets/rubies_and_rabies/blockstates/old_grass.json"
+          "src/main/resources/assets/rubies_and_rabies/models/block/old_grass.json"
         ]
       },
       "path": "~/1904"
@@ -51,11 +51,11 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/rubies_and_rabies/blockstates/old_dirt.json",
-          "src/main/resources/assets/rubies_and_rabies/models/block/old_dirt.json",
-          "src/main/resources/data/rubies_and_rabies/loot_table/blocks/old_dirt.json",
-          "src/main/resources/assets/rubies_and_rabies/models/item/old_dirt.json",
           "src/main/resources/assets/rubies_and_rabies/items/old_dirt.json",
-          "src/main/java/net/mcreator/rubiesandrabies/block/OldDirtBlock.java"
+          "src/main/resources/assets/rubies_and_rabies/models/item/old_dirt.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/OldDirtBlock.java",
+          "src/main/resources/data/rubies_and_rabies/loot_table/blocks/old_dirt.json",
+          "src/main/resources/assets/rubies_and_rabies/models/block/old_dirt.json"
         ]
       },
       "path": "~/1904"
@@ -124,10 +124,10 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/rubiesandrabies/client/renderer/MummyRenderer.java",
-          "src/main/resources/assets/rubies_and_rabies/models/item/mummy_spawn_egg.json",
           "src/main/resources/assets/rubies_and_rabies/items/mummy_spawn_egg.json",
           "src/main/resources/data/rubies_and_rabies/neoforge/biome_modifier/mummy_biome_modifier.json",
-          "src/main/java/net/mcreator/rubiesandrabies/entity/MummyEntity.java"
+          "src/main/java/net/mcreator/rubiesandrabies/entity/MummyEntity.java",
+          "src/main/resources/assets/rubies_and_rabies/models/item/mummy_spawn_egg.json"
         ]
       },
       "path": "~/Overworld/Biomes/Desert"
@@ -145,13 +145,13 @@
     }
   ],
   "tag_elements": {
-    "BLOCKS:minecraft:mineable/shovel": [
-      "~OldDirt@CUSTOM:OldDirt",
-      "~OldGrass@CUSTOM:OldGrass"
-    ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
       "~Ninteenohfour@CUSTOM:OldGrass",
       "~Ninteenohfour@CUSTOM:OldDirt"
+    ],
+    "BLOCKS:minecraft:mineable/shovel": [
+      "~OldDirt@CUSTOM:OldDirt",
+      "~OldGrass@CUSTOM:OldGrass"
     ],
     "ENTITIES:minecraft:undead": [
       "~Mummy@CUSTOM:Mummy"

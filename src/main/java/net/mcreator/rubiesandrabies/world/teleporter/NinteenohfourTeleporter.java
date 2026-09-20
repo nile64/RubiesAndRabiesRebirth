@@ -38,8 +38,8 @@ public class NinteenohfourTeleporter {
 	@SubscribeEvent
 	public static void registerPointOfInterest(RegisterEvent event) {
 		event.register(Registries.POINT_OF_INTEREST_TYPE, registerHelper -> {
-			PoiType poiType = new PoiType(ImmutableSet.copyOf(RubiesAndRabiesModBlocks.NINTEENOHFOURDIMENSION_PORTAL.get().getStateDefinition().getPossibleStates()), 0, 1);
-			registerHelper.register(Identifier.parse("rubies_and_rabies:ninteenohfourdimension_portal"), poiType);
+			PoiType poiType = new PoiType(ImmutableSet.copyOf(RubiesAndRabiesModBlocks.NINTEENOHFOUR_PORTAL.get().getStateDefinition().getPossibleStates()), 0, 1);
+			registerHelper.register(Identifier.parse("rubies_and_rabies:ninteenohfour_portal"), poiType);
 			poi = BuiltInRegistries.POINT_OF_INTEREST_TYPE.wrapAsHolder(poiType);
 		});
 	}
@@ -131,7 +131,7 @@ public class NinteenohfourTeleporter {
 				}
 			}
 		}
-		BlockState portalBlockState = RubiesAndRabiesModBlocks.NINTEENOHFOURDIMENSION_PORTAL.get().defaultBlockState().setValue(NetherPortalBlock.AXIS, portalAxis);
+		BlockState portalBlockState = RubiesAndRabiesModBlocks.NINTEENOHFOUR_PORTAL.get().defaultBlockState().setValue(NetherPortalBlock.AXIS, portalAxis);
 		for (int width = 0; width < 2; width++) {
 			for (int heightx = 0; heightx < 3; heightx++) {
 				mutable.setWithOffset(closestFullPosition, width * direction.getStepX(), heightx, width * direction.getStepZ());
