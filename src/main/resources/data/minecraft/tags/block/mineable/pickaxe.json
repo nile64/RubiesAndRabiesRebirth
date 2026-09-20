@@ -1,11 +1,17 @@
 {
   "replace": false,
   "values": [
-    "rubies_and_rabies:ruby_bricks",
-    "rubies_and_rabies:ruby_tiles",
-    "rubies_and_rabies:ruby_tetrahexadron_bricks",
-    "rubies_and_rabies:ruby_shelf",
-    "rubies_and_rabies:ruby_block",
-    "rubies_and_rabies:ruby_door"
+    "rubies_and_rabies:polished_old_slab",
+    "rubies_and_rabies:old_bricks",
+    "rubies_and_rabies:old_tiles",
+    "rubies_and_rabies:old_bricks_slab",
+    "rubies_and_rabies:old_bricks_stairs",
+    "rubies_and_rabies:chisled_old",
+    "rubies_and_rabies:old_tiles_slab",
+    "rubies_and_rabies:polished_old",
+    "rubies_and_rabies:old_stone",
+    "rubies_and_rabies:old_tiles_stairs",
+    "rubies_and_rabies:polished_old_stairs",
+    "rubies_and_rabies:old_pillar"
   ]
 }

@@ -1,5 +1,4 @@
 {
-  "item.rubies_and_rabies.ninteenohfour": "1904 Switch",
   "item.rubies_and_rabies.old_grass": "Old Grass",
   "subtitles.nineteenfour": "",
   "item.rubies_and_rabies.old_dirt": "Old Dirt",
@@ -7,5 +6,19 @@
   "item_group.rubies_and_rabies.nineteenohfour": "1904 Dimension",
   "subtitles.nineteentheme": "",
   "entity.rubies_and_rabies.mummy": "Mummy",
-  "item.rubies_and_rabies.mummy_spawn_egg": "Mummy Spawn Egg"
+  "item.rubies_and_rabies.mummy_spawn_egg": "Mummy Spawn Egg",
+  "item.rubies_and_rabies.ninteenohfourdimension": "1904 Switch",
+  "item.rubies_and_rabies.old_stone": "Old Stone",
+  "item.rubies_and_rabies.old_pebble": "Gross Tar",
+  "item.rubies_and_rabies.chisled_old": "Chisled Olden",
+  "item.rubies_and_rabies.polished_old": "Polished Olden",
+  "item.rubies_and_rabies.old_bricks": "Olden Bricks",
+  "item.rubies_and_rabies.old_pillar": "Olden Pillar",
+  "item.rubies_and_rabies.old_tiles": "Olden Tiles",
+  "item.rubies_and_rabies.polished_old_slab": "Polished Olden Slab",
+  "item.rubies_and_rabies.old_bricks_slab": "Olden Brick Slab",
+  "item.rubies_and_rabies.old_tiles_slab": "Olden Tile Slab",
+  "item.rubies_and_rabies.polished_old_stairs": "Polished Olden Stairs",
+  "item.rubies_and_rabies.old_bricks_stairs": "Olden Brick Stairs",
+  "item.rubies_and_rabies.old_tiles_stairs": "Olden Tile Stairs"
 }

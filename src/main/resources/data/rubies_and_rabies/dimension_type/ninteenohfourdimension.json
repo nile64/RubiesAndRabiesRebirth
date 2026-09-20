@@ -31,7 +31,7 @@
   "ambient_light": 0,
   "infiniburn": "#minecraft:infiniburn_overworld",
   "has_fixed_time": true,
-  "timelines": "rubies_and_rabies:ninteenohfour_fixed",
+  "timelines": "rubies_and_rabies:ninteenohfourdimension_fixed",
   "default_clock": "minecraft:overworld",
   "min_y": -64,
   "height": 384,

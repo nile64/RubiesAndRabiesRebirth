@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "rubies_and_rabies:block/old_tiles",
+    "bottom": "rubies_and_rabies:block/old_tiles",
+    "top": "rubies_and_rabies:block/old_tiles",
+    "side": "rubies_and_rabies:block/old_tiles"
+  }
+}

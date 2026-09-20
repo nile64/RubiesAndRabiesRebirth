@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "rubies_and_rabies:block/ninteenohfourdimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "rubies_and_rabies:block/ninteenohfourdimension_portal_ns"
+    }
+  }
+}

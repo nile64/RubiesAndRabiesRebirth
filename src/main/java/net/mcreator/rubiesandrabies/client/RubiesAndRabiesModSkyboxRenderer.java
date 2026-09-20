@@ -34,9 +34,9 @@ public class RubiesAndRabiesModSkyboxRenderer {
 	private static GpuBuffer sunBuffer;
 	private static GpuBuffer moonBuffer;
 	private static GpuBuffer skyboxBuffer;
-	private static final ResourceKey NINTEENOHFOUR = ResourceKey.create(Registries.DIMENSION, Identifier.parse("rubies_and_rabies:ninteenohfour"));
-	private static final Identifier NINTEENOHFOUR_SUN = Identifier.parse("rubies_and_rabies:textures/1904.png");
-	private static final Identifier NINTEENOHFOUR_MOON = Identifier.parse("rubies_and_rabies:textures/1904.png");
+	private static final ResourceKey NINTEENOHFOURDIMENSION = ResourceKey.create(Registries.DIMENSION, Identifier.parse("rubies_and_rabies:ninteenohfourdimension"));
+	private static final Identifier NINTEENOHFOURDIMENSION_SUN = Identifier.parse("rubies_and_rabies:textures/1904.png");
+	private static final Identifier NINTEENOHFOURDIMENSION_MOON = Identifier.parse("rubies_and_rabies:textures/1904.png");
 
 	private static void initBuffers() {
 		if (sunBuffer == null)
@@ -52,9 +52,9 @@ public class RubiesAndRabiesModSkyboxRenderer {
 		Minecraft mc = Minecraft.getInstance();
 		if (mc.player == null)
 			return;
-		if (mc.player.level().dimension() == NINTEENOHFOUR) {
-			renderCustomSun(event, NINTEENOHFOUR_SUN);
-			renderCustomMoon(event, NINTEENOHFOUR_MOON);
+		if (mc.player.level().dimension() == NINTEENOHFOURDIMENSION) {
+			renderCustomSun(event, NINTEENOHFOURDIMENSION_SUN);
+			renderCustomMoon(event, NINTEENOHFOURDIMENSION_MOON);
 		}
 	}
 

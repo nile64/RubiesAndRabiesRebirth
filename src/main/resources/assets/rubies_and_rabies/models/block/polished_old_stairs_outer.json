@@ -1,0 +1,9 @@
+{
+  "parent": "block/outer_stairs",
+  "textures": {
+    "particle": "rubies_and_rabies:block/polished_old",
+    "bottom": "rubies_and_rabies:block/polished_old",
+    "top": "rubies_and_rabies:block/polished_old",
+    "side": "rubies_and_rabies:block/polished_old"
+  }
+}

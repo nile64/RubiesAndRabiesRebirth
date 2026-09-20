@@ -22,15 +22,28 @@ public class RubiesAndRabiesModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, RubiesAndRabiesMod.MODID);
 	public static final DeferredHolder<CreativeModeTab, CreativeModeTab> NINETEENOHFOUR = REGISTRY.register("nineteenohfour",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.rubies_and_rabies.nineteenohfour")).icon(() -> new ItemStack(RubiesAndRabiesModBlocks.OLD_GRASS.get())).displayItems((parameters, tabData) -> {
-				tabData.accept(RubiesAndRabiesModItems.NINTEENOHFOUR.get());
+				tabData.accept(RubiesAndRabiesModItems.NINTEENOHFOURDIMENSION.get());
 				tabData.accept(RubiesAndRabiesModBlocks.OLD_GRASS.get().asItem());
 				tabData.accept(RubiesAndRabiesModBlocks.OLD_DIRT.get().asItem());
+				tabData.accept(RubiesAndRabiesModBlocks.OLD_STONE.get().asItem());
+				tabData.accept(RubiesAndRabiesModItems.OLD_PEBBLE.get());
+				tabData.accept(RubiesAndRabiesModBlocks.CHISLED_OLD.get().asItem());
+				tabData.accept(RubiesAndRabiesModBlocks.POLISHED_OLD.get().asItem());
+				tabData.accept(RubiesAndRabiesModBlocks.OLD_BRICKS.get().asItem());
+				tabData.accept(RubiesAndRabiesModBlocks.OLD_PILLAR.get().asItem());
+				tabData.accept(RubiesAndRabiesModBlocks.OLD_TILES.get().asItem());
+				tabData.accept(RubiesAndRabiesModBlocks.POLISHED_OLD_SLAB.get().asItem());
+				tabData.accept(RubiesAndRabiesModBlocks.OLD_BRICKS_SLAB.get().asItem());
+				tabData.accept(RubiesAndRabiesModBlocks.OLD_TILES_SLAB.get().asItem());
+				tabData.accept(RubiesAndRabiesModBlocks.POLISHED_OLD_STAIRS.get().asItem());
+				tabData.accept(RubiesAndRabiesModBlocks.OLD_BRICKS_STAIRS.get().asItem());
+				tabData.accept(RubiesAndRabiesModBlocks.OLD_TILES_STAIRS.get().asItem());
 			}).build());
 
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
-			tabData.accept(RubiesAndRabiesModItems.NINTEENOHFOUR.get());
+			tabData.accept(RubiesAndRabiesModItems.NINTEENOHFOURDIMENSION.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(RubiesAndRabiesModItems.MUMMY_SPAWN_EGG.get());
 		}
