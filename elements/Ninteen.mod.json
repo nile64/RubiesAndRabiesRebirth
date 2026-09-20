@@ -30,9 +30,9 @@
       "value": -15592942,
       "falpha": 0.0
     },
-    "ambientSound": "CUSTOM:nineteenfour",
+    "ambientSound": "",
     "additionsSound": "",
-    "music": "",
+    "music": "CUSTOM:nineteentheme",
     "moodSound": "",
     "moodSoundDelay": 6000,
     "spawnParticles": true,
@@ -64,7 +64,7 @@
       "max": 1.0
     },
     "genDepth": {
-      "min": 0.2,
+      "min": 0.0,
       "max": 0.9
     },
     "treesPerChunk": 0,
@@ -75,7 +75,9 @@
     "treeBranch": "",
     "treeVines": "",
     "treeFruits": "",
-    "defaultFeatures": [],
+    "defaultFeatures": [
+      "DesertFeatures"
+    ],
     "spawnStronghold": false,
     "spawnMineshaft": false,
     "spawnMineshaftMesa": false,

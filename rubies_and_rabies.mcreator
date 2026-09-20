@@ -13,12 +13,12 @@
           "src/main/java/net/mcreator/rubiesandrabies/world/teleporter/NinteenohfourTeleporter.java",
           "src/main/java/net/mcreator/rubiesandrabies/item/NinteenohfourItem.java",
           "src/main/java/net/mcreator/rubiesandrabies/block/NinteenohfourPortalBlock.java",
+          "src/main/resources/data/rubies_and_rabies/timeline/ninteenohfour_fixed.json",
           "src/main/resources/assets/rubies_and_rabies/models/item/ninteenohfour.json",
           "src/main/resources/assets/rubies_and_rabies/items/ninteenohfour.json",
           "src/main/resources/data/rubies_and_rabies/dimension_type/ninteenohfour.json",
           "src/main/resources/assets/rubies_and_rabies/blockstates/ninteenohfour_portal.json",
           "src/main/resources/assets/rubies_and_rabies/models/block/ninteenohfour_portal_ns.json",
-          "src/main/resources/data/rubies_and_rabies/timeline/ninteenohfour_effects.json",
           "src/main/resources/assets/rubies_and_rabies/models/block/ninteenohfour_portal_ew.json"
         ]
       },
@@ -119,7 +119,7 @@
   "variable_elements": [],
   "sound_elements": [
     {
-      "name": "nineteenfour",
+      "name": "nineteentheme",
       "files": [
         "1904_theme"
       ],
@@ -145,11 +145,13 @@
       "subtitles.nineteenfour": "",
       "item.rubies_and_rabies.old_dirt": "Old Dirt",
       "biome.rubies_and_rabies.ninteen": "Ninteen",
-      "item_group.rubies_and_rabies.nineteenohfour": "1904 Dimension"
+      "item_group.rubies_and_rabies.nineteenohfour": "1904 Dimension",
+      "subtitles.nineteentheme": ""
     }
   },
   "metadata": {
     "files": [
+      "src/main/java/net/mcreator/rubiesandrabies/client/RubiesAndRabiesModSkyboxRenderer.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModBlocks.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModItems.java",
       "src/main/java/net/mcreator/rubiesandrabies/RubiesAndRabiesMod.java",

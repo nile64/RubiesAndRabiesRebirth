@@ -14,5 +14,5 @@ import net.mcreator.rubiesandrabies.RubiesAndRabiesMod;
 
 public class RubiesAndRabiesModSounds {
 	public static final DeferredRegister<SoundEvent> REGISTRY = DeferredRegister.create(Registries.SOUND_EVENT, RubiesAndRabiesMod.MODID);
-	public static final DeferredHolder<SoundEvent, SoundEvent> NINETEENFOUR = REGISTRY.register("nineteenfour", () -> SoundEvent.createVariableRangeEvent(Identifier.fromNamespaceAndPath("rubies_and_rabies", "nineteenfour")));
+	public static final DeferredHolder<SoundEvent, SoundEvent> NINETEENTHEME = REGISTRY.register("nineteentheme", () -> SoundEvent.createVariableRangeEvent(Identifier.fromNamespaceAndPath("rubies_and_rabies", "nineteentheme")));
 }
