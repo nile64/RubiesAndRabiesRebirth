@@ -105,7 +105,7 @@
     "vibrationSensitivityRadius": {
       "fixedValue": 7.0
     },
-    "hasInventory": true,
+    "hasInventory": false,
     "guiBoundTo": "OldenCrateGui",
     "openGUIOnRightClick": true,
     "inventorySize": 27,

@@ -121,7 +121,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onNeighbourBlockChanges": "OldGrassNeighbourBlockChanges",
     "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [

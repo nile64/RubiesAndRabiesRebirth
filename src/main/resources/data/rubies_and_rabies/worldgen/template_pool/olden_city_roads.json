@@ -1,12 +1,12 @@
 {
   "name": "rubies_and_rabies:olden_city_roads",
-  "fallback": "end",
+  "fallback": "minecraft:empty",
   "elements": [
     {
-      "weight": 7,
+      "weight": 5,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "rubies_and_rabies:straight_road",
+        "location": "rubies_and_rabies:crossroad",
         "projection": "rigid",
         "processors": {
           "processors": []
@@ -14,10 +14,10 @@
       }
     },
     {
-      "weight": 3,
+      "weight": 5,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "rubies_and_rabies:crossroad",
+        "location": "rubies_and_rabies:straight_road",
         "projection": "rigid",
         "processors": {
           "processors": []

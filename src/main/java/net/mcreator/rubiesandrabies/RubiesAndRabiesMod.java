@@ -50,7 +50,6 @@ public class RubiesAndRabiesMod {
 		modEventBus.addListener(this::registerNetworking);
 		RubiesAndRabiesModSounds.REGISTRY.register(modEventBus);
 		RubiesAndRabiesModBlocks.REGISTRY.register(modEventBus);
-		RubiesAndRabiesModBlockEntities.REGISTRY.register(modEventBus);
 		RubiesAndRabiesModItems.REGISTRY.register(modEventBus);
 		RubiesAndRabiesModEntities.REGISTRY.register(modEventBus);
 		RubiesAndRabiesModTabs.REGISTRY.register(modEventBus);

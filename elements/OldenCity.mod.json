@@ -7,46 +7,34 @@
     "ignoredBlocks": [
       "Blocks.STRUCTURE_BLOCK"
     ],
-    "spacing": 47,
-    "separation": 40,
+    "spacing": 48,
+    "separation": 43,
     "restrictionBiomes": [
       "CUSTOM:Ninteen"
     ],
     "terrainAdaptation": "beard_thin",
     "generationStep": "SURFACE_STRUCTURES",
-    "surfaceDetectionType": "WORLD_SURFACE",
+    "surfaceDetectionType": "WORLD_SURFACE_WG",
     "useStartHeight": false,
     "startHeightProviderType": "UNIFORM",
     "startHeightMin": 0,
     "startHeightMax": 128,
-    "size": 7,
+    "size": 15,
     "maxDistanceFromCenter": 64,
     "jigsawPools": [
       {
         "poolName": "roads",
-        "fallbackPool": "end",
+        "fallbackPool": "",
         "poolParts": [
           {
-            "weight": 7,
-            "structure": "straight_road",
+            "weight": 5,
+            "structure": "crossroad",
             "projection": "rigid",
             "ignoredBlocks": []
           },
           {
-            "weight": 3,
-            "structure": "crossroad",
-            "projection": "rigid",
-            "ignoredBlocks": []
-          }
-        ]
-      },
-      {
-        "poolName": "bigplot",
-        "fallbackPool": "",
-        "poolParts": [
-          {
-            "weight": 1,
-            "structure": "diner",
+            "weight": 5,
+            "structure": "straight_road",
             "projection": "rigid",
             "ignoredBlocks": []
           }
@@ -65,12 +53,12 @@
         ]
       },
       {
-        "poolName": "end",
+        "poolName": "bigplot",
         "fallbackPool": "",
         "poolParts": [
           {
             "weight": 1,
-            "structure": "roadcircle",
+            "structure": "diner",
             "projection": "rigid",
             "ignoredBlocks": []
           }

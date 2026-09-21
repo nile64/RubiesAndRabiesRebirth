@@ -547,7 +547,6 @@
           "src/main/resources/assets/rubies_and_rabies/items/olden_crate.json",
           "src/main/resources/assets/rubies_and_rabies/blockstates/olden_crate.json",
           "src/main/resources/assets/rubies_and_rabies/models/item/olden_crate.json",
-          "src/main/java/net/mcreator/rubiesandrabies/block/entity/OldenCrateBlockEntity.java",
           "src/main/java/net/mcreator/rubiesandrabies/block/OldenCrateBlock.java",
           "src/main/resources/data/rubies_and_rabies/loot_table/blocks/olden_crate.json",
           "src/main/resources/assets/rubies_and_rabies/models/block/olden_crate.json"
@@ -596,6 +595,24 @@
         ]
       },
       "path": "~/1904/Blocks"
+    },
+    {
+      "name": "OldenCIty",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olden_city",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubies_and_rabies/worldgen/template_pool/olden_city_bigplot.json",
+          "src/main/resources/data/rubies_and_rabies/worldgen/template_pool/olden_city_smallplot.json",
+          "src/main/resources/data/rubies_and_rabies/worldgen/structure_set/olden_city.json",
+          "src/main/resources/data/rubies_and_rabies/worldgen/template_pool/olden_city_roads.json",
+          "src/main/resources/data/rubies_and_rabies/worldgen/structure/olden_city.json",
+          "src/main/resources/data/rubies_and_rabies/worldgen/template_pool/olden_city.json"
+        ]
+      },
+      "path": "~/1904"
     }
   ],
   "variable_elements": [],
@@ -712,7 +729,6 @@
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModMenus.java",
       "src/main/java/net/mcreator/rubiesandrabies/network/MenuStateUpdateMessage.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModBlocks.java",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModBlockEntities.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModItems.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModEntityRenderers.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModEntities.java",
