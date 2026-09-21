@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "rubies_and_rabies:olden_plank_slab",
+    "rubies_and_rabies:olden_plank_fence",
+    "rubies_and_rabies:olden_plank",
+    "rubies_and_rabies:olden_plank_stairs",
+    "rubies_and_rabies:olden_log",
+    "rubies_and_rabies:olden_plank_pressure_plate"
+  ]
+}

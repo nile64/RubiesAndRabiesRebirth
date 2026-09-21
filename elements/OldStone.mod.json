@@ -130,9 +130,9 @@
       "CUSTOM:OldDirt"
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 1,
+    "frequencyPerChunks": 2,
     "frequencyOnChunk": 16,
     "minGenerateHeight": 50,
-    "maxGenerateHeight": 76
+    "maxGenerateHeight": 256
   }
 }
