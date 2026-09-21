@@ -15,6 +15,7 @@ import net.minecraft.world.item.BlockItem;
 import net.mcreator.rubiesandrabies.item.OldPebbleItem;
 import net.mcreator.rubiesandrabies.item.NinteenohfourItem;
 import net.mcreator.rubiesandrabies.item.ItemseItem;
+import net.mcreator.rubiesandrabies.item.DhjfgdhjgfjhgItem;
 import net.mcreator.rubiesandrabies.RubiesAndRabiesMod;
 
 import java.util.function.Function;
@@ -39,6 +40,7 @@ public class RubiesAndRabiesModItems {
 	public static final DeferredItem<Item> OLD_BRICKS_STAIRS;
 	public static final DeferredItem<Item> OLD_TILES_STAIRS;
 	public static final DeferredItem<Item> ITEMSE;
+	public static final DeferredItem<Item> DHJFGDHJGFJHG;
 	static {
 		NINTEENOHFOURDIMENSION = register("ninteenohfourdimension", NinteenohfourItem::new);
 		OLD_GRASS = block(RubiesAndRabiesModBlocks.OLD_GRASS);
@@ -58,6 +60,7 @@ public class RubiesAndRabiesModItems {
 		OLD_BRICKS_STAIRS = block(RubiesAndRabiesModBlocks.OLD_BRICKS_STAIRS);
 		OLD_TILES_STAIRS = block(RubiesAndRabiesModBlocks.OLD_TILES_STAIRS);
 		ITEMSE = register("itemse", ItemseItem::new);
+		DHJFGDHJGFJHG = register("dhjfgdhjgfjhg", DhjfgdhjgfjhgItem::new);
 	}
 
 	// Start of user code block custom items

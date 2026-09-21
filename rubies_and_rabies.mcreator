@@ -404,6 +404,20 @@
         ]
       },
       "path": "~/Nether/Fortress"
+    },
+    {
+      "name": "Dhjfgdhjgfjhg",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dhjfgdhjgfjhg",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubies_and_rabies/items/dhjfgdhjgfjhg.json",
+          "src/main/java/net/mcreator/rubiesandrabies/item/DhjfgdhjgfjhgItem.java",
+          "src/main/resources/assets/rubies_and_rabies/models/item/dhjfgdhjgfjhg.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -479,7 +493,8 @@
       "item.rubies_and_rabies.polished_old_stairs": "Polished Olden Stairs",
       "item.rubies_and_rabies.old_bricks_stairs": "Olden Brick Stairs",
       "item.rubies_and_rabies.old_tiles_stairs": "Olden Tile Stairs",
-      "item.rubies_and_rabies.itemse": "Itemse"
+      "item.rubies_and_rabies.itemse": "Itemse",
+      "item.rubies_and_rabies.dhjfgdhjgfjhg": "Dhjfgdhjgfjhg"
     }
   },
   "metadata": {
