@@ -511,6 +511,21 @@
         ]
       },
       "path": "~/Nether/Fortress/Archblaze"
+    },
+    {
+      "name": "Itemse",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "itemse",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/item/ItemseItem.java",
+          "src/main/resources/assets/rubies_and_rabies/models/item/itemse.json",
+          "src/main/resources/assets/rubies_and_rabies/items/itemse.json"
+        ]
+      },
+      "path": "~/Nether/Fortress"
     }
   ],
   "variable_elements": [],
@@ -588,7 +603,8 @@
       "item.rubies_and_rabies.old_tiles_stairs": "Olden Tile Stairs",
       "entity.rubies_and_rabies.archblaze": "Archblaze",
       "item.rubies_and_rabies.archblaze_spawn_egg": "Archblaze Spawn Egg",
-      "item.rubies_and_rabies.archfirecharge": "Archfirecharge"
+      "item.rubies_and_rabies.archfirecharge": "Archfirecharge",
+      "item.rubies_and_rabies.itemse": "Itemse"
     }
   },
   "metadata": {
