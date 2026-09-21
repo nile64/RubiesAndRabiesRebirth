@@ -14,6 +14,7 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.rubiesandrabies.item.OldPebbleItem;
 import net.mcreator.rubiesandrabies.item.NinteenohfourItem;
+import net.mcreator.rubiesandrabies.item.NameItSomethingRandomItem;
 import net.mcreator.rubiesandrabies.RubiesAndRabiesMod;
 
 import java.util.function.Function;
@@ -45,6 +46,7 @@ public class RubiesAndRabiesModItems {
 	public static final DeferredItem<Item> OLDEN_PLANK_PRESSURE_PLATE;
 	public static final DeferredItem<Item> OLDEN_BULB;
 	public static final DeferredItem<Item> OLDEN_CRATE;
+	public static final DeferredItem<Item> NAME_IT_SOMETHING_RANDOM;
 	static {
 		NINTEENOHFOURDIMENSION = register("ninteenohfourdimension", NinteenohfourItem::new);
 		OLD_GRASS = block(RubiesAndRabiesModBlocks.OLD_GRASS);
@@ -71,6 +73,7 @@ public class RubiesAndRabiesModItems {
 		OLDEN_PLANK_PRESSURE_PLATE = block(RubiesAndRabiesModBlocks.OLDEN_PLANK_PRESSURE_PLATE);
 		OLDEN_BULB = block(RubiesAndRabiesModBlocks.OLDEN_BULB);
 		OLDEN_CRATE = block(RubiesAndRabiesModBlocks.OLDEN_CRATE);
+		NAME_IT_SOMETHING_RANDOM = register("name_it_something_random", NameItSomethingRandomItem::new);
 	}
 
 	// Start of user code block custom items
