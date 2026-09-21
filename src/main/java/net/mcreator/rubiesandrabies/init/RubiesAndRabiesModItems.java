@@ -38,8 +38,6 @@ public class RubiesAndRabiesModItems {
 	public static final DeferredItem<Item> POLISHED_OLD_STAIRS;
 	public static final DeferredItem<Item> OLD_BRICKS_STAIRS;
 	public static final DeferredItem<Item> OLD_TILES_STAIRS;
-	public static final DeferredItem<Item> ARCHBLAZE_SPAWN_EGG;
-	public static final DeferredItem<Item> ARCHFIRECHARGE;
 	public static final DeferredItem<Item> ITEMSE;
 	static {
 		NINTEENOHFOURDIMENSION = register("ninteenohfourdimension", NinteenohfourItem::new);
@@ -59,8 +57,6 @@ public class RubiesAndRabiesModItems {
 		POLISHED_OLD_STAIRS = block(RubiesAndRabiesModBlocks.POLISHED_OLD_STAIRS);
 		OLD_BRICKS_STAIRS = block(RubiesAndRabiesModBlocks.OLD_BRICKS_STAIRS);
 		OLD_TILES_STAIRS = block(RubiesAndRabiesModBlocks.OLD_TILES_STAIRS);
-		ARCHBLAZE_SPAWN_EGG = register("archblaze_spawn_egg", properties -> new SpawnEggItem(properties.spawnEgg(RubiesAndRabiesModEntities.ARCHBLAZE.get())));
-		ARCHFIRECHARGE = register("archfirecharge", ArchfirechargeItem::new);
 		ITEMSE = register("itemse", ItemseItem::new);
 	}
 
