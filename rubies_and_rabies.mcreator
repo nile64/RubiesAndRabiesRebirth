@@ -8,18 +8,18 @@
       "registry_name": "ninteenohfourdimension",
       "metadata": {
         "files": [
-          "src/main/resources/data/rubies_and_rabies/timeline/ninteenohfourdimension_fixed.json",
-          "src/main/resources/assets/rubies_and_rabies/items/ninteenohfourdimension.json",
-          "src/main/java/net/mcreator/rubiesandrabies/world/teleporter/NinteenohfourPortalShape.java",
           "src/main/resources/assets/rubies_and_rabies/models/block/ninteenohfourdimension_portal_ew.json",
           "src/main/resources/data/rubies_and_rabies/dimension_type/ninteenohfourdimension.json",
-          "src/main/resources/assets/rubies_and_rabies/models/block/ninteenohfourdimension_portal_ns.json",
-          "src/main/java/net/mcreator/rubiesandrabies/item/NinteenohfourItem.java",
-          "src/main/java/net/mcreator/rubiesandrabies/world/teleporter/NinteenohfourTeleporter.java",
-          "src/main/resources/assets/rubies_and_rabies/models/item/ninteenohfourdimension.json",
-          "src/main/resources/data/rubies_and_rabies/dimension/ninteenohfourdimension.json",
+          "src/main/resources/assets/rubies_and_rabies/items/ninteenohfourdimension.json",
+          "src/main/java/net/mcreator/rubiesandrabies/world/teleporter/NinteenohfourPortalShape.java",
           "src/main/resources/assets/rubies_and_rabies/blockstates/ninteenohfourdimension_portal.json",
-          "src/main/java/net/mcreator/rubiesandrabies/block/NinteenohfourPortalBlock.java"
+          "src/main/resources/data/rubies_and_rabies/dimension/ninteenohfourdimension.json",
+          "src/main/resources/assets/rubies_and_rabies/models/item/ninteenohfourdimension.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/NinteenohfourPortalBlock.java",
+          "src/main/resources/data/rubies_and_rabies/timeline/ninteenohfourdimension_fixed.json",
+          "src/main/resources/assets/rubies_and_rabies/models/block/ninteenohfourdimension_portal_ns.json",
+          "src/main/java/net/mcreator/rubiesandrabies/world/teleporter/NinteenohfourTeleporter.java",
+          "src/main/java/net/mcreator/rubiesandrabies/item/NinteenohfourItem.java"
         ]
       },
       "path": "~/1904"
@@ -32,12 +32,12 @@
       "registry_name": "old_grass",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rubies_and_rabies/models/item/old_grass.json",
-          "src/main/resources/data/rubies_and_rabies/loot_table/blocks/old_grass.json",
           "src/main/resources/assets/rubies_and_rabies/blockstates/old_grass.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/OldGrassBlock.java",
+          "src/main/resources/data/rubies_and_rabies/loot_table/blocks/old_grass.json",
           "src/main/resources/assets/rubies_and_rabies/items/old_grass.json",
-          "src/main/resources/assets/rubies_and_rabies/models/block/old_grass.json",
-          "src/main/java/net/mcreator/rubiesandrabies/block/OldGrassBlock.java"
+          "src/main/resources/assets/rubies_and_rabies/models/item/old_grass.json",
+          "src/main/resources/assets/rubies_and_rabies/models/block/old_grass.json"
         ]
       },
       "path": "~/1904/Blocks"
@@ -50,12 +50,12 @@
       "registry_name": "old_dirt",
       "metadata": {
         "files": [
-          "src/main/resources/data/rubies_and_rabies/loot_table/blocks/old_dirt.json",
           "src/main/resources/assets/rubies_and_rabies/blockstates/old_dirt.json",
-          "src/main/resources/assets/rubies_and_rabies/models/block/old_dirt.json",
+          "src/main/resources/assets/rubies_and_rabies/items/old_dirt.json",
           "src/main/resources/assets/rubies_and_rabies/models/item/old_dirt.json",
           "src/main/java/net/mcreator/rubiesandrabies/block/OldDirtBlock.java",
-          "src/main/resources/assets/rubies_and_rabies/items/old_dirt.json"
+          "src/main/resources/data/rubies_and_rabies/loot_table/blocks/old_dirt.json",
+          "src/main/resources/assets/rubies_and_rabies/models/block/old_dirt.json"
         ]
       },
       "path": "~/1904/Blocks"
@@ -102,7 +102,7 @@
           "src/main/java/net/mcreator/rubiesandrabies/procedures/OldGrassNeighbourBlockChangesProcedure.java"
         ]
       },
-      "path": "~/1904"
+      "path": "~/1904/Blocks"
     },
     {
       "name": "Nineteenohfour",
@@ -124,10 +124,10 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/rubiesandrabies/client/renderer/MummyRenderer.java",
-          "src/main/resources/assets/rubies_and_rabies/models/item/mummy_spawn_egg.json",
           "src/main/resources/assets/rubies_and_rabies/items/mummy_spawn_egg.json",
           "src/main/resources/data/rubies_and_rabies/neoforge/biome_modifier/mummy_biome_modifier.json",
-          "src/main/java/net/mcreator/rubiesandrabies/entity/MummyEntity.java"
+          "src/main/java/net/mcreator/rubiesandrabies/entity/MummyEntity.java",
+          "src/main/resources/assets/rubies_and_rabies/models/item/mummy_spawn_egg.json"
         ]
       },
       "path": "~/Overworld/Biomes/Desert"
@@ -140,14 +140,14 @@
       "registry_name": "old_stone",
       "metadata": {
         "files": [
-          "src/main/resources/data/rubies_and_rabies/worldgen/configured_feature/old_stone.json",
           "src/main/resources/data/rubies_and_rabies/neoforge/biome_modifier/old_stone_biome_modifier.json",
-          "src/main/resources/assets/rubies_and_rabies/items/old_stone.json",
-          "src/main/resources/assets/rubies_and_rabies/models/item/old_stone.json",
+          "src/main/resources/data/rubies_and_rabies/worldgen/configured_feature/old_stone.json",
           "src/main/resources/data/rubies_and_rabies/worldgen/placed_feature/old_stone.json",
+          "src/main/resources/assets/rubies_and_rabies/models/item/old_stone.json",
+          "src/main/resources/assets/rubies_and_rabies/items/old_stone.json",
+          "src/main/resources/assets/rubies_and_rabies/models/block/old_stone.json",
           "src/main/resources/assets/rubies_and_rabies/blockstates/old_stone.json",
-          "src/main/java/net/mcreator/rubiesandrabies/block/OldStoneBlock.java",
-          "src/main/resources/assets/rubies_and_rabies/models/block/old_stone.json"
+          "src/main/java/net/mcreator/rubiesandrabies/block/OldStoneBlock.java"
         ]
       },
       "path": "~/1904/Blocks"
@@ -160,9 +160,9 @@
       "registry_name": "old_pebble",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/item/OldPebbleItem.java",
           "src/main/resources/assets/rubies_and_rabies/models/item/old_pebble.json",
-          "src/main/resources/assets/rubies_and_rabies/items/old_pebble.json",
-          "src/main/java/net/mcreator/rubiesandrabies/item/OldPebbleItem.java"
+          "src/main/resources/assets/rubies_and_rabies/items/old_pebble.json"
         ]
       },
       "path": "~/1904/Blocks"
@@ -188,15 +188,15 @@
       "registry_name": "chisled_old",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rubies_and_rabies/models/block/chisled_old.json",
-          "src/main/resources/assets/rubies_and_rabies/models/item/chisled_old.json",
           "src/main/resources/assets/rubies_and_rabies/blockstates/chisled_old.json",
           "src/main/java/net/mcreator/rubiesandrabies/block/ChisledOldBlock.java",
+          "src/main/resources/assets/rubies_and_rabies/models/block/chisled_old.json",
+          "src/main/resources/assets/rubies_and_rabies/models/item/chisled_old.json",
           "src/main/resources/assets/rubies_and_rabies/items/chisled_old.json",
           "src/main/resources/data/rubies_and_rabies/loot_table/blocks/chisled_old.json"
         ]
       },
-      "path": "~/1904/Blocks/Decoration"
+      "path": "~/1904/Blocks/Decoration/Stones"
     },
     {
       "name": "PolishedOld",
@@ -206,15 +206,15 @@
       "registry_name": "polished_old",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rubies_and_rabies/models/block/polished_old.json",
-          "src/main/resources/assets/rubies_and_rabies/models/item/polished_old.json",
-          "src/main/java/net/mcreator/rubiesandrabies/block/PolishedOldBlock.java",
           "src/main/resources/data/rubies_and_rabies/loot_table/blocks/polished_old.json",
           "src/main/resources/assets/rubies_and_rabies/items/polished_old.json",
-          "src/main/resources/assets/rubies_and_rabies/blockstates/polished_old.json"
+          "src/main/resources/assets/rubies_and_rabies/blockstates/polished_old.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/PolishedOldBlock.java",
+          "src/main/resources/assets/rubies_and_rabies/models/item/polished_old.json",
+          "src/main/resources/assets/rubies_and_rabies/models/block/polished_old.json"
         ]
       },
-      "path": "~/1904/Blocks/Decoration"
+      "path": "~/1904/Blocks/Decoration/Stones"
     },
     {
       "name": "OldBricks",
@@ -227,12 +227,12 @@
           "src/main/resources/assets/rubies_and_rabies/blockstates/old_bricks.json",
           "src/main/resources/data/rubies_and_rabies/loot_table/blocks/old_bricks.json",
           "src/main/resources/assets/rubies_and_rabies/items/old_bricks.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/OldBricksBlock.java",
           "src/main/resources/assets/rubies_and_rabies/models/block/old_bricks.json",
-          "src/main/resources/assets/rubies_and_rabies/models/item/old_bricks.json",
-          "src/main/java/net/mcreator/rubiesandrabies/block/OldBricksBlock.java"
+          "src/main/resources/assets/rubies_and_rabies/models/item/old_bricks.json"
         ]
       },
-      "path": "~/1904/Blocks/Decoration"
+      "path": "~/1904/Blocks/Decoration/Stones"
     },
     {
       "name": "OldPillar",
@@ -243,14 +243,14 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/rubies_and_rabies/models/block/old_pillar.json",
-          "src/main/java/net/mcreator/rubiesandrabies/block/OldPillarBlock.java",
-          "src/main/resources/assets/rubies_and_rabies/blockstates/old_pillar.json",
           "src/main/resources/assets/rubies_and_rabies/models/item/old_pillar.json",
           "src/main/resources/assets/rubies_and_rabies/items/old_pillar.json",
-          "src/main/resources/data/rubies_and_rabies/loot_table/blocks/old_pillar.json"
+          "src/main/java/net/mcreator/rubiesandrabies/block/OldPillarBlock.java",
+          "src/main/resources/data/rubies_and_rabies/loot_table/blocks/old_pillar.json",
+          "src/main/resources/assets/rubies_and_rabies/blockstates/old_pillar.json"
         ]
       },
-      "path": "~/1904/Blocks/Decoration"
+      "path": "~/1904/Blocks/Decoration/Stones"
     },
     {
       "name": "OldTiles",
@@ -260,15 +260,15 @@
       "registry_name": "old_tiles",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rubies_and_rabies/models/block/old_tiles.json",
-          "src/main/resources/assets/rubies_and_rabies/items/old_tiles.json",
-          "src/main/resources/assets/rubies_and_rabies/models/item/old_tiles.json",
-          "src/main/java/net/mcreator/rubiesandrabies/block/OldTilesBlock.java",
           "src/main/resources/data/rubies_and_rabies/loot_table/blocks/old_tiles.json",
-          "src/main/resources/assets/rubies_and_rabies/blockstates/old_tiles.json"
+          "src/main/resources/assets/rubies_and_rabies/models/item/old_tiles.json",
+          "src/main/resources/assets/rubies_and_rabies/items/old_tiles.json",
+          "src/main/resources/assets/rubies_and_rabies/blockstates/old_tiles.json",
+          "src/main/resources/assets/rubies_and_rabies/models/block/old_tiles.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/OldTilesBlock.java"
         ]
       },
-      "path": "~/1904/Blocks/Decoration"
+      "path": "~/1904/Blocks/Decoration/Stones"
     },
     {
       "name": "PolishedOldSlab",
@@ -278,17 +278,17 @@
       "registry_name": "polished_old_slab",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/rubiesandrabies/block/PolishedOldSlabBlock.java",
+          "src/main/resources/assets/rubies_and_rabies/items/polished_old_slab.json",
           "src/main/resources/assets/rubies_and_rabies/models/item/polished_old_slab.json",
           "src/main/resources/assets/rubies_and_rabies/blockstates/polished_old_slab.json",
-          "src/main/resources/assets/rubies_and_rabies/models/block/polished_old_slab.json",
           "src/main/resources/assets/rubies_and_rabies/models/block/polished_old_slab_top.json",
-          "src/main/resources/assets/rubies_and_rabies/models/block/polished_old_slab_full.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/PolishedOldSlabBlock.java",
+          "src/main/resources/assets/rubies_and_rabies/models/block/polished_old_slab.json",
           "src/main/resources/data/rubies_and_rabies/loot_table/blocks/polished_old_slab.json",
-          "src/main/resources/assets/rubies_and_rabies/items/polished_old_slab.json"
+          "src/main/resources/assets/rubies_and_rabies/models/block/polished_old_slab_full.json"
         ]
       },
-      "path": "~/1904/Blocks/Decoration"
+      "path": "~/1904/Blocks/Decoration/Stones"
     },
     {
       "name": "OldBricksSlab",
@@ -298,17 +298,17 @@
       "registry_name": "old_bricks_slab",
       "metadata": {
         "files": [
+          "src/main/resources/assets/rubies_and_rabies/models/block/old_bricks_slab.json",
+          "src/main/resources/assets/rubies_and_rabies/items/old_bricks_slab.json",
+          "src/main/resources/assets/rubies_and_rabies/models/block/old_bricks_slab_top.json",
           "src/main/resources/data/rubies_and_rabies/loot_table/blocks/old_bricks_slab.json",
           "src/main/resources/assets/rubies_and_rabies/blockstates/old_bricks_slab.json",
           "src/main/resources/assets/rubies_and_rabies/models/item/old_bricks_slab.json",
-          "src/main/resources/assets/rubies_and_rabies/models/block/old_bricks_slab_top.json",
           "src/main/java/net/mcreator/rubiesandrabies/block/OldBricksSlabBlock.java",
-          "src/main/resources/assets/rubies_and_rabies/models/block/old_bricks_slab_full.json",
-          "src/main/resources/assets/rubies_and_rabies/items/old_bricks_slab.json",
-          "src/main/resources/assets/rubies_and_rabies/models/block/old_bricks_slab.json"
+          "src/main/resources/assets/rubies_and_rabies/models/block/old_bricks_slab_full.json"
         ]
       },
-      "path": "~/1904/Blocks/Decoration"
+      "path": "~/1904/Blocks/Decoration/Stones"
     },
     {
       "name": "OldTilesSlab",
@@ -318,17 +318,17 @@
       "registry_name": "old_tiles_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rubies_and_rabies/items/old_tiles_slab.json",
-          "src/main/resources/assets/rubies_and_rabies/models/item/old_tiles_slab.json",
-          "src/main/resources/assets/rubies_and_rabies/blockstates/old_tiles_slab.json",
           "src/main/java/net/mcreator/rubiesandrabies/block/OldTilesSlabBlock.java",
           "src/main/resources/assets/rubies_and_rabies/models/block/old_tiles_slab_top.json",
+          "src/main/resources/assets/rubies_and_rabies/models/item/old_tiles_slab.json",
           "src/main/resources/assets/rubies_and_rabies/models/block/old_tiles_slab.json",
           "src/main/resources/assets/rubies_and_rabies/models/block/old_tiles_slab_full.json",
-          "src/main/resources/data/rubies_and_rabies/loot_table/blocks/old_tiles_slab.json"
+          "src/main/resources/data/rubies_and_rabies/loot_table/blocks/old_tiles_slab.json",
+          "src/main/resources/assets/rubies_and_rabies/blockstates/old_tiles_slab.json",
+          "src/main/resources/assets/rubies_and_rabies/items/old_tiles_slab.json"
         ]
       },
-      "path": "~/1904/Blocks/Decoration"
+      "path": "~/1904/Blocks/Decoration/Stones"
     },
     {
       "name": "PolishedOldStairs",
@@ -338,17 +338,17 @@
       "registry_name": "polished_old_stairs",
       "metadata": {
         "files": [
+          "src/main/resources/assets/rubies_and_rabies/models/item/polished_old_stairs.json",
+          "src/main/resources/data/rubies_and_rabies/loot_table/blocks/polished_old_stairs.json",
           "src/main/resources/assets/rubies_and_rabies/models/block/polished_old_stairs.json",
+          "src/main/resources/assets/rubies_and_rabies/items/polished_old_stairs.json",
           "src/main/resources/assets/rubies_and_rabies/models/block/polished_old_stairs_outer.json",
           "src/main/java/net/mcreator/rubiesandrabies/block/PolishedOldStairsBlock.java",
-          "src/main/resources/assets/rubies_and_rabies/models/block/polished_old_stairs_inner.json",
           "src/main/resources/assets/rubies_and_rabies/blockstates/polished_old_stairs.json",
-          "src/main/resources/data/rubies_and_rabies/loot_table/blocks/polished_old_stairs.json",
-          "src/main/resources/assets/rubies_and_rabies/items/polished_old_stairs.json",
-          "src/main/resources/assets/rubies_and_rabies/models/item/polished_old_stairs.json"
+          "src/main/resources/assets/rubies_and_rabies/models/block/polished_old_stairs_inner.json"
         ]
       },
-      "path": "~/1904/Blocks/Decoration"
+      "path": "~/1904/Blocks/Decoration/Stones"
     },
     {
       "name": "OldBricksStairs",
@@ -358,17 +358,17 @@
       "registry_name": "old_bricks_stairs",
       "metadata": {
         "files": [
+          "src/main/resources/assets/rubies_and_rabies/models/block/old_bricks_stairs_outer.json",
+          "src/main/resources/assets/rubies_and_rabies/blockstates/old_bricks_stairs.json",
+          "src/main/resources/assets/rubies_and_rabies/models/item/old_bricks_stairs.json",
+          "src/main/resources/data/rubies_and_rabies/loot_table/blocks/old_bricks_stairs.json",
+          "src/main/resources/assets/rubies_and_rabies/items/old_bricks_stairs.json",
           "src/main/java/net/mcreator/rubiesandrabies/block/OldBricksStairsBlock.java",
           "src/main/resources/assets/rubies_and_rabies/models/block/old_bricks_stairs.json",
-          "src/main/resources/assets/rubies_and_rabies/items/old_bricks_stairs.json",
-          "src/main/resources/assets/rubies_and_rabies/models/block/old_bricks_stairs_inner.json",
-          "src/main/resources/data/rubies_and_rabies/loot_table/blocks/old_bricks_stairs.json",
-          "src/main/resources/assets/rubies_and_rabies/models/item/old_bricks_stairs.json",
-          "src/main/resources/assets/rubies_and_rabies/blockstates/old_bricks_stairs.json",
-          "src/main/resources/assets/rubies_and_rabies/models/block/old_bricks_stairs_outer.json"
+          "src/main/resources/assets/rubies_and_rabies/models/block/old_bricks_stairs_inner.json"
         ]
       },
-      "path": "~/1904/Blocks/Decoration"
+      "path": "~/1904/Blocks/Decoration/Stones"
     },
     {
       "name": "OldTilesStairs",
@@ -378,154 +378,224 @@
       "registry_name": "old_tiles_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/data/rubies_and_rabies/loot_table/blocks/old_tiles_stairs.json",
-          "src/main/resources/assets/rubies_and_rabies/items/old_tiles_stairs.json",
-          "src/main/resources/assets/rubies_and_rabies/models/block/old_tiles_stairs_outer.json",
-          "src/main/resources/assets/rubies_and_rabies/models/item/old_tiles_stairs.json",
           "src/main/java/net/mcreator/rubiesandrabies/block/OldTilesStairsBlock.java",
-          "src/main/resources/assets/rubies_and_rabies/models/block/old_tiles_stairs.json",
+          "src/main/resources/data/rubies_and_rabies/loot_table/blocks/old_tiles_stairs.json",
+          "src/main/resources/assets/rubies_and_rabies/models/block/old_tiles_stairs_outer.json",
+          "src/main/resources/assets/rubies_and_rabies/models/block/old_tiles_stairs_inner.json",
+          "src/main/resources/assets/rubies_and_rabies/items/old_tiles_stairs.json",
+          "src/main/resources/assets/rubies_and_rabies/models/item/old_tiles_stairs.json",
           "src/main/resources/assets/rubies_and_rabies/blockstates/old_tiles_stairs.json",
-          "src/main/resources/assets/rubies_and_rabies/models/block/old_tiles_stairs_inner.json"
+          "src/main/resources/assets/rubies_and_rabies/models/block/old_tiles_stairs.json"
+        ]
+      },
+      "path": "~/1904/Blocks/Decoration/Stones"
+    },
+    {
+      "name": "OldenPlank",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olden_plank",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubies_and_rabies/loot_table/blocks/olden_plank.json",
+          "src/main/resources/assets/rubies_and_rabies/models/block/olden_plank.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/OldenPlankBlock.java",
+          "src/main/resources/assets/rubies_and_rabies/blockstates/olden_plank.json",
+          "src/main/resources/assets/rubies_and_rabies/items/olden_plank.json",
+          "src/main/resources/assets/rubies_and_rabies/models/item/olden_plank.json"
         ]
       },
       "path": "~/1904/Blocks/Decoration"
     },
     {
-      "name": "Archblaze",
-      "type": "livingentity",
+      "name": "OldenLog",
+      "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "archblaze",
+      "registry_name": "olden_log",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rubies_and_rabies/items/archblaze_spawn_egg.json",
-          "src/main/resources/assets/rubies_and_rabies/models/item/archblaze_spawn_egg.json",
-          "src/main/java/net/mcreator/rubiesandrabies/client/renderer/ArchblazeRenderer.java",
-          "src/main/java/net/mcreator/rubiesandrabies/entity/ArchblazeEntity.java",
-          "src/main/resources/data/rubies_and_rabies/neoforge/biome_modifier/archblaze_biome_modifier.json"
+          "src/main/resources/assets/rubies_and_rabies/models/item/olden_log.json",
+          "src/main/resources/assets/rubies_and_rabies/blockstates/olden_log.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/OldenLogBlock.java",
+          "src/main/resources/assets/rubies_and_rabies/items/olden_log.json",
+          "src/main/resources/assets/rubies_and_rabies/models/block/olden_log.json",
+          "src/main/resources/data/rubies_and_rabies/loot_table/blocks/olden_log.json"
         ]
       },
-      "path": "~/Nether/Fortress/Archblaze"
+      "path": "~/1904/Blocks/Decoration"
     },
     {
-      "name": "Archfirecharge",
+      "name": "OldenPlankRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olden_plank_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubies_and_rabies/recipe/olden_plank_recipe.json"
+        ]
+      },
+      "path": "~/1904/Blocks/Decoration"
+    },
+    {
+      "name": "OldenPlankSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olden_plank_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubies_and_rabies/models/item/olden_plank_slab.json",
+          "src/main/resources/assets/rubies_and_rabies/models/block/olden_plank_slab.json",
+          "src/main/resources/assets/rubies_and_rabies/blockstates/olden_plank_slab.json",
+          "src/main/resources/assets/rubies_and_rabies/models/block/olden_plank_slab_full.json",
+          "src/main/resources/assets/rubies_and_rabies/models/block/olden_plank_slab_top.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/OldenPlankSlabBlock.java",
+          "src/main/resources/data/rubies_and_rabies/loot_table/blocks/olden_plank_slab.json",
+          "src/main/resources/assets/rubies_and_rabies/items/olden_plank_slab.json"
+        ]
+      },
+      "path": "~/1904/Blocks/Decoration"
+    },
+    {
+      "name": "OldenPlankStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olden_plank_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubies_and_rabies/loot_table/blocks/olden_plank_stairs.json",
+          "src/main/resources/assets/rubies_and_rabies/blockstates/olden_plank_stairs.json",
+          "src/main/resources/assets/rubies_and_rabies/models/block/olden_plank_stairs.json",
+          "src/main/resources/assets/rubies_and_rabies/models/block/olden_plank_stairs_outer.json",
+          "src/main/resources/assets/rubies_and_rabies/models/block/olden_plank_stairs_inner.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/OldenPlankStairsBlock.java",
+          "src/main/resources/assets/rubies_and_rabies/items/olden_plank_stairs.json",
+          "src/main/resources/assets/rubies_and_rabies/models/item/olden_plank_stairs.json"
+        ]
+      },
+      "path": "~/1904/Blocks/Decoration"
+    },
+    {
+      "name": "OldenPlankFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olden_plank_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubies_and_rabies/loot_table/blocks/olden_plank_fence.json",
+          "src/main/resources/assets/rubies_and_rabies/models/block/olden_plank_fence_inventory.json",
+          "src/main/resources/assets/rubies_and_rabies/models/block/olden_plank_fence.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/OldenPlankFenceBlock.java",
+          "src/main/resources/assets/rubies_and_rabies/items/olden_plank_fence.json",
+          "src/main/resources/assets/rubies_and_rabies/models/item/olden_plank_fence.json",
+          "src/main/resources/assets/rubies_and_rabies/blockstates/olden_plank_fence.json",
+          "src/main/resources/assets/rubies_and_rabies/models/block/olden_plank_fence_post.json"
+        ]
+      },
+      "path": "~/1904/Blocks/Decoration"
+    },
+    {
+      "name": "OldenPlankPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olden_plank_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubies_and_rabies/models/block/olden_plank_pressure_plate.json",
+          "src/main/resources/assets/rubies_and_rabies/blockstates/olden_plank_pressure_plate.json",
+          "src/main/resources/assets/rubies_and_rabies/models/block/olden_plank_pressure_plate_down.json",
+          "src/main/resources/data/rubies_and_rabies/loot_table/blocks/olden_plank_pressure_plate.json",
+          "src/main/resources/assets/rubies_and_rabies/items/olden_plank_pressure_plate.json",
+          "src/main/resources/assets/rubies_and_rabies/models/item/olden_plank_pressure_plate.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/OldenPlankPressurePlateBlock.java"
+        ]
+      },
+      "path": "~/1904/Blocks/Decoration"
+    },
+    {
+      "name": "OldenBulb",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olden_bulb",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubies_and_rabies/loot_table/blocks/olden_bulb.json",
+          "src/main/resources/assets/rubies_and_rabies/models/item/olden_bulb.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/OldenBulbBlock.java",
+          "src/main/resources/assets/rubies_and_rabies/models/block/olden_bulb.json",
+          "src/main/resources/assets/rubies_and_rabies/items/olden_bulb.json",
+          "src/main/resources/assets/rubies_and_rabies/blockstates/olden_bulb.json"
+        ]
+      },
+      "path": "~/1904/Blocks/Decoration/Stones"
+    },
+    {
+      "name": "OldenCrate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olden_crate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubies_and_rabies/items/olden_crate.json",
+          "src/main/resources/assets/rubies_and_rabies/blockstates/olden_crate.json",
+          "src/main/resources/assets/rubies_and_rabies/models/item/olden_crate.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/entity/OldenCrateBlockEntity.java",
+          "src/main/java/net/mcreator/rubiesandrabies/block/OldenCrateBlock.java",
+          "src/main/resources/data/rubies_and_rabies/loot_table/blocks/olden_crate.json",
+          "src/main/resources/assets/rubies_and_rabies/models/block/olden_crate.json"
+        ]
+      },
+      "path": "~/1904/Blocks/City Loot"
+    },
+    {
+      "name": "OldenCrateGui",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olden_crate_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/world/inventory/OldenCrateGuiMenu.java",
+          "src/main/java/net/mcreator/rubiesandrabies/client/gui/OldenCrateGuiScreen.java"
+        ]
+      },
+      "path": "~/1904/Blocks/City Loot"
+    },
+    {
+      "name": "RonnoldLoot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ronnold_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubies_and_rabies/loot_table/chests/ninteenohfourdimension.json"
+        ]
+      },
+      "path": "~/1904/Blocks/City Loot"
+    },
+    {
+      "name": "NameItSomethingRandom",
       "type": "item",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "archfirecharge",
+      "registry_name": "name_it_something_random",
       "metadata": {
         "files": [
-          "src/main/resources/assets/rubies_and_rabies/models/item/archfirecharge.json",
-          "src/main/resources/assets/rubies_and_rabies/items/archfirecharge.json",
-          "src/main/java/net/mcreator/rubiesandrabies/item/ArchfirechargeItem.java"
+          "src/main/resources/assets/rubies_and_rabies/models/item/name_it_something_random.json",
+          "src/main/java/net/mcreator/rubiesandrabies/item/NameItSomethingRandomItem.java",
+          "src/main/resources/assets/rubies_and_rabies/items/name_it_something_random.json"
         ]
       },
-      "path": "~/Nether/Fortress/Archblaze"
-    },
-    {
-      "name": "Archfireball",
-      "type": "projectile",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "archfireball",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/rubiesandrabies/entity/ArchfireballEntity.java"
-        ]
-      },
-      "path": "~/Nether/Fortress/Archblaze"
-    },
-    {
-      "name": "ArchfireballProjectileHitsBlock",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "archfireball_projectile_hits_block",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ],
-        "files": [
-          "src/main/java/net/mcreator/rubiesandrabies/procedures/ArchfireballProjectileHitsBlockProcedure.java"
-        ]
-      },
-      "path": "~/Nether/Fortress/Archblaze"
-    },
-    {
-      "name": "Archblazeparticle",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "archblazeparticle",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ],
-        "files": [
-          "src/main/java/net/mcreator/rubiesandrabies/procedures/ArchblazeparticleProcedure.java"
-        ]
-      },
-      "path": "~/Nether/Fortress/Archblaze"
-    },
-    {
-      "name": "ArchfireballLifespan",
-      "type": "procedure",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "archfireball_lifespan",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "immediatesourceentity",
-            "type": "entity"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ],
-        "files": [
-          "src/main/java/net/mcreator/rubiesandrabies/procedures/ArchfireballLifespanProcedure.java"
-        ]
-      },
-      "path": "~/Nether/Fortress/Archblaze"
-    },
-    {
-      "name": "Itemse",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "itemse",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/rubiesandrabies/item/ItemseItem.java",
-          "src/main/resources/assets/rubies_and_rabies/models/item/itemse.json",
-          "src/main/resources/assets/rubies_and_rabies/items/itemse.json"
-        ]
-      },
-      "path": "~/Nether/Fortress"
+      "path": "~/1904/Blocks"
     }
   ],
   "variable_elements": [],
@@ -540,6 +610,10 @@
     }
   ],
   "tag_elements": {
+    "BLOCKS:minecraft:dirt": [
+      "CUSTOM:OldGrass",
+      "CUSTOM:OldDirt"
+    ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
       "~Ninteenohfour@CUSTOM:OldGrass",
       "~Ninteenohfour@CUSTOM:OldDirt"
@@ -552,6 +626,8 @@
       "~Mummy@CUSTOM:Mummy"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
+      "~OldenCrate@CUSTOM:OldenCrate",
+      "~OldenBulb@CUSTOM:OldenBulb",
       "~OldTilesStairs@CUSTOM:OldTilesStairs",
       "~OldBricksStairs@CUSTOM:OldBricksStairs",
       "~PolishedOldStairs@CUSTOM:PolishedOldStairs",
@@ -566,14 +642,30 @@
       "~OldStone@CUSTOM:OldStone"
     ],
     "BLOCKS:minecraft:slabs": [
+      "~OldenPlankSlab@CUSTOM:OldenPlankSlab",
       "~OldTilesSlab@CUSTOM:OldTilesSlab",
       "~OldBricksSlab@CUSTOM:OldBricksSlab",
       "~PolishedOldSlab@CUSTOM:PolishedOldSlab"
     ],
     "BLOCKS:minecraft:stairs": [
+      "~OldenPlankStairs@CUSTOM:OldenPlankStairs",
       "~OldTilesStairs@CUSTOM:OldTilesStairs",
       "~OldBricksStairs@CUSTOM:OldBricksStairs",
       "~PolishedOldStairs@CUSTOM:PolishedOldStairs"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~OldenPlankPressurePlate@CUSTOM:OldenPlankPressurePlate",
+      "~OldenPlankFence@CUSTOM:OldenPlankFence",
+      "~OldenPlankStairs@CUSTOM:OldenPlankStairs",
+      "~OldenPlankSlab@CUSTOM:OldenPlankSlab",
+      "~OldenLog@CUSTOM:OldenLog",
+      "~OldenPlank@CUSTOM:OldenPlank"
+    ],
+    "BLOCKS:minecraft:wooden_fences": [
+      "~OldenPlankFence@CUSTOM:OldenPlankFence"
+    ],
+    "BLOCKS:minecraft:wooden_pressure_plates": [
+      "~OldenPlankPressurePlate@CUSTOM:OldenPlankPressurePlate"
     ]
   },
   "tab_element_order": {},
@@ -588,8 +680,6 @@
       "entity.rubies_and_rabies.mummy": "Mummy",
       "item.rubies_and_rabies.mummy_spawn_egg": "Mummy Spawn Egg",
       "item.rubies_and_rabies.ninteenohfourdimension": "1904 Switch",
-      "item.rubies_and_rabies.old_stone": "Old Stone",
-      "item.rubies_and_rabies.old_pebble": "Gross Tar",
       "item.rubies_and_rabies.chisled_old": "Chisled Olden",
       "item.rubies_and_rabies.polished_old": "Polished Olden",
       "item.rubies_and_rabies.old_bricks": "Olden Bricks",
@@ -601,23 +691,38 @@
       "item.rubies_and_rabies.polished_old_stairs": "Polished Olden Stairs",
       "item.rubies_and_rabies.old_bricks_stairs": "Olden Brick Stairs",
       "item.rubies_and_rabies.old_tiles_stairs": "Olden Tile Stairs",
-      "item.rubies_and_rabies.itemse": "Itemse"
+      "gui.rubies_and_rabies.olden_crate_gui.label_olden_crate": "Olden Crate",
+      "item.rubies_and_rabies.old_stone": "Old Stone",
+      "item.rubies_and_rabies.old_pebble": "Gross Tar",
+      "item.rubies_and_rabies.name_it_something_random": "Name It Something Random",
+      "item.rubies_and_rabies.olden_plank": "Olden Plank",
+      "item.rubies_and_rabies.olden_log": "Olden Log",
+      "item.rubies_and_rabies.olden_plank_slab": "Olden Plank Slab",
+      "item.rubies_and_rabies.olden_plank_stairs": "Olden Plank Stairs",
+      "item.rubies_and_rabies.olden_plank_fence": "Olden Plank Fence",
+      "item.rubies_and_rabies.olden_plank_pressure_plate": "Olden Plank Fence",
+      "item.rubies_and_rabies.olden_bulb": "Olden Bulb",
+      "item.rubies_and_rabies.olden_crate": "Olden Crate"
     }
   },
   "metadata": {
     "files": [
       "src/main/java/net/mcreator/rubiesandrabies/client/RubiesAndRabiesModSkyboxRenderer.java",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModScreens.java",
+      "src/main/java/net/mcreator/rubiesandrabies/network/MenuStateUpdateMessage.java",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModMenus.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModBlocks.java",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModBlockEntities.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModItems.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModEntities.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModEntityRenderers.java",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModModels.java",
-      "src/main/resources/pack.mcmeta",
       "src/main/java/net/mcreator/rubiesandrabies/RubiesAndRabiesMod.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModSounds.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModTabs.java",
+      "src/main/resources/pack.mcmeta",
       "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/resources/assets/rubies_and_rabies/sounds.json"
+      "src/main/resources/assets/rubies_and_rabies/sounds.json",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModModels.java"
     ]
   },
   "foldersRoot": {
@@ -643,17 +748,7 @@
       },
       {
         "name": "Nether",
-        "children": [
-          {
-            "name": "Fortress",
-            "children": [
-              {
-                "name": "Archblaze",
-                "children": []
-              }
-            ]
-          }
-        ]
+        "children": []
       },
       {
         "name": "End",
@@ -676,6 +771,15 @@
             "children": [
               {
                 "name": "Decoration",
+                "children": [
+                  {
+                    "name": "Stones",
+                    "children": []
+                  }
+                ]
+              },
+              {
+                "name": "City Loot",
                 "children": []
               }
             ]
