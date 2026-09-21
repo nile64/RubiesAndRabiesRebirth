@@ -11,7 +11,6 @@ import net.neoforged.api.distmarker.Dist;
 import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 
 import net.mcreator.rubiesandrabies.client.renderer.MummyRenderer;
-import net.mcreator.rubiesandrabies.client.renderer.ArchblazeRenderer;
 
 @EventBusSubscriber(Dist.CLIENT)
 public class RubiesAndRabiesModEntityRenderers {

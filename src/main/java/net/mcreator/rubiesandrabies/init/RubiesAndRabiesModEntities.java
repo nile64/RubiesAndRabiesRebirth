@@ -18,8 +18,6 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.Registries;
 
 import net.mcreator.rubiesandrabies.entity.MummyEntity;
-import net.mcreator.rubiesandrabies.entity.ArchfireballEntity;
-import net.mcreator.rubiesandrabies.entity.ArchblazeEntity;
 import net.mcreator.rubiesandrabies.RubiesAndRabiesMod;
 
 @EventBusSubscriber
