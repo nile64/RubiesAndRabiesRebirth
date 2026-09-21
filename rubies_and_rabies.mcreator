@@ -582,21 +582,6 @@
       "path": "~/1904/Blocks/City Loot"
     },
     {
-      "name": "NameItSomethingRandom",
-      "type": "item",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "name_it_something_random",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/rubies_and_rabies/items/name_it_something_random.json",
-          "src/main/java/net/mcreator/rubiesandrabies/item/NameItSomethingRandomItem.java",
-          "src/main/resources/assets/rubies_and_rabies/models/item/name_it_something_random.json"
-        ]
-      },
-      "path": "~/1904/Blocks"
-    },
-    {
       "name": "OldenCIty",
       "type": "structure",
       "compiles": true,
@@ -712,14 +697,14 @@
       "item.rubies_and_rabies.old_stone": "Old Stone",
       "item.rubies_and_rabies.old_pebble": "Gross Tar",
       "item.rubies_and_rabies.name_it_something_random": "Name It Something Random",
+      "item.rubies_and_rabies.olden_crate": "Olden Crate",
       "item.rubies_and_rabies.olden_plank": "Olden Plank",
       "item.rubies_and_rabies.olden_log": "Olden Log",
       "item.rubies_and_rabies.olden_plank_slab": "Olden Plank Slab",
       "item.rubies_and_rabies.olden_plank_stairs": "Olden Plank Stairs",
       "item.rubies_and_rabies.olden_plank_fence": "Olden Plank Fence",
       "item.rubies_and_rabies.olden_plank_pressure_plate": "Olden Plank Fence",
-      "item.rubies_and_rabies.olden_bulb": "Olden Bulb",
-      "item.rubies_and_rabies.olden_crate": "Olden Crate"
+      "item.rubies_and_rabies.olden_bulb": "Olden Bulb"
     }
   },
   "metadata": {
