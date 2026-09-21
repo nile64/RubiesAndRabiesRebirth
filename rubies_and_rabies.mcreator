@@ -581,6 +581,25 @@
         ]
       },
       "path": "~/1904/Blocks/City Loot"
+    },
+    {
+      "name": "OldenCity",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olden_city",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubies_and_rabies/worldgen/template_pool/olden_city_bigplot.json",
+          "src/main/resources/data/rubies_and_rabies/worldgen/template_pool/olden_city_smallplot.json",
+          "src/main/resources/data/rubies_and_rabies/worldgen/structure_set/olden_city.json",
+          "src/main/resources/data/rubies_and_rabies/worldgen/template_pool/olden_city_roads.json",
+          "src/main/resources/data/rubies_and_rabies/worldgen/template_pool/olden_city_end.json",
+          "src/main/resources/data/rubies_and_rabies/worldgen/structure/olden_city.json",
+          "src/main/resources/data/rubies_and_rabies/worldgen/template_pool/olden_city.json"
+        ]
+      },
+      "path": "~/1904"
     }
   ],
   "variable_elements": [],
