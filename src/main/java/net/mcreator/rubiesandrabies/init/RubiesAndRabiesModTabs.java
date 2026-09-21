@@ -46,6 +46,7 @@ public class RubiesAndRabiesModTabs {
 			tabData.accept(RubiesAndRabiesModItems.NINTEENOHFOURDIMENSION.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(RubiesAndRabiesModItems.MUMMY_SPAWN_EGG.get());
+			tabData.accept(RubiesAndRabiesModItems.ARCHBLAZE_SPAWN_EGG.get());
 		}
 	}
 }

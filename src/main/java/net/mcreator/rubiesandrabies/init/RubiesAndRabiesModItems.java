@@ -14,6 +14,7 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.rubiesandrabies.item.OldPebbleItem;
 import net.mcreator.rubiesandrabies.item.NinteenohfourItem;
+import net.mcreator.rubiesandrabies.item.ArchfirechargeItem;
 import net.mcreator.rubiesandrabies.RubiesAndRabiesMod;
 
 import java.util.function.Function;
@@ -37,6 +38,8 @@ public class RubiesAndRabiesModItems {
 	public static final DeferredItem<Item> POLISHED_OLD_STAIRS;
 	public static final DeferredItem<Item> OLD_BRICKS_STAIRS;
 	public static final DeferredItem<Item> OLD_TILES_STAIRS;
+	public static final DeferredItem<Item> ARCHBLAZE_SPAWN_EGG;
+	public static final DeferredItem<Item> ARCHFIRECHARGE;
 	static {
 		NINTEENOHFOURDIMENSION = register("ninteenohfourdimension", NinteenohfourItem::new);
 		OLD_GRASS = block(RubiesAndRabiesModBlocks.OLD_GRASS);
@@ -55,6 +58,8 @@ public class RubiesAndRabiesModItems {
 		POLISHED_OLD_STAIRS = block(RubiesAndRabiesModBlocks.POLISHED_OLD_STAIRS);
 		OLD_BRICKS_STAIRS = block(RubiesAndRabiesModBlocks.OLD_BRICKS_STAIRS);
 		OLD_TILES_STAIRS = block(RubiesAndRabiesModBlocks.OLD_TILES_STAIRS);
+		ARCHBLAZE_SPAWN_EGG = register("archblaze_spawn_egg", properties -> new SpawnEggItem(properties.spawnEgg(RubiesAndRabiesModEntities.ARCHBLAZE.get())));
+		ARCHFIRECHARGE = register("archfirecharge", ArchfirechargeItem::new);
 	}
 
 	// Start of user code block custom items

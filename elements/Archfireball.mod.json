@@ -1,0 +1,23 @@
+{
+  "_fv": 89,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": "CUSTOM:Archfirecharge",
+    "showParticles": false,
+    "actionSound": "entity.blaze.shoot",
+    "igniteFire": true,
+    "disableGravity": true,
+    "disableDiscarding": false,
+    "power": 0.4,
+    "damage": 4.0,
+    "knockback": 0,
+    "entityModel": "Default",
+    "customModelTexture": "",
+    "modelWidth": 0.5,
+    "modelHeight": 0.5,
+    "onHitsBlock": "ArchfireballProjectileHitsBlock",
+    "onHitsPlayer": "ArchfireballProjectileHitsBlock",
+    "onHitsEntity": "ArchfireballProjectileHitsBlock",
+    "onFlyingTick": "ArchfireballLifespan"
+  }
+}
