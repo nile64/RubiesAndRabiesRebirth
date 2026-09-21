@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "minecraft:clock_05",
+    "texture": "archblaze_spawn_egg_generated",
     "customModelName": "Normal",
     "guiTexture": "",
     "customProperties": {},

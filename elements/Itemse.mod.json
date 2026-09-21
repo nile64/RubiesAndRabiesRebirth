@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "minecraft:copper_horse_armor",
+    "texture": "minecraft:acacia_boat",
     "customModelName": "Normal",
     "guiTexture": "",
     "customProperties": {},
