@@ -618,9 +618,6 @@
       "CUSTOM:OldGrass",
       "CUSTOM:OldDirt"
     ],
-    "BLOCKS:minecraft:logs": [
-      "CUSTOM:OldenLog"
-    ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
       "~Ninteenohfour@CUSTOM:OldGrass",
       "~Ninteenohfour@CUSTOM:OldDirt"
@@ -698,6 +695,9 @@
       "item.rubies_and_rabies.polished_old_stairs": "Polished Olden Stairs",
       "item.rubies_and_rabies.old_bricks_stairs": "Olden Brick Stairs",
       "item.rubies_and_rabies.old_tiles_stairs": "Olden Tile Stairs",
+      "gui.rubies_and_rabies.olden_crate_gui.label_olden_crate": "Olden Crate",
+      "item.rubies_and_rabies.old_stone": "Old Stone",
+      "item.rubies_and_rabies.old_pebble": "Gross Tar",
       "item.rubies_and_rabies.olden_plank": "Olden Plank",
       "item.rubies_and_rabies.olden_log": "Olden Log",
       "item.rubies_and_rabies.olden_plank_slab": "Olden Plank Slab",
@@ -705,10 +705,7 @@
       "item.rubies_and_rabies.olden_plank_fence": "Olden Plank Fence",
       "item.rubies_and_rabies.olden_plank_pressure_plate": "Olden Plank Fence",
       "item.rubies_and_rabies.olden_bulb": "Olden Bulb",
-      "item.rubies_and_rabies.olden_crate": "Olden Crate",
-      "gui.rubies_and_rabies.olden_crate_gui.label_olden_crate": "Olden Crate",
-      "item.rubies_and_rabies.old_stone": "Old Stone",
-      "item.rubies_and_rabies.old_pebble": "Gross Tar"
+      "item.rubies_and_rabies.olden_crate": "Olden Crate"
     }
   },
   "metadata": {
