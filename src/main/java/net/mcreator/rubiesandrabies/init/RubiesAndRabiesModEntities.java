@@ -18,6 +18,8 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.Registries;
 
 import net.mcreator.rubiesandrabies.entity.MummyEntity;
+import net.mcreator.rubiesandrabies.entity.ArchfireballEntity;
+import net.mcreator.rubiesandrabies.entity.ArchblazeEntity;
 import net.mcreator.rubiesandrabies.RubiesAndRabiesMod;
 
 @EventBusSubscriber
@@ -27,6 +29,12 @@ public class RubiesAndRabiesModEntities {
 			EntityType.Builder.<MummyEntity>of(MummyEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(0.6f, 1.8f));
+	public static final DeferredHolder<EntityType<?>, EntityType<ArchblazeEntity>> ARCHBLAZE = register("archblaze",
+			EntityType.Builder.<ArchblazeEntity>of(ArchblazeEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).fireImmune()
+
+					.sized(0.6f, 1.7f));
+	public static final DeferredHolder<EntityType<?>, EntityType<ArchfireballEntity>> ARCHFIREBALL = register("archfireball",
+			EntityType.Builder.<ArchfireballEntity>of(ArchfireballEntity::new, MobCategory.MISC).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	// Start of user code block custom entities
 	// End of user code block custom entities
@@ -37,10 +45,12 @@ public class RubiesAndRabiesModEntities {
 	@SubscribeEvent
 	public static void init(RegisterSpawnPlacementsEvent event) {
 		MummyEntity.init(event);
+		ArchblazeEntity.init(event);
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(MUMMY.get(), MummyEntity.createAttributes().build());
+		event.put(ARCHBLAZE.get(), ArchblazeEntity.createAttributes().build());
 	}
 }

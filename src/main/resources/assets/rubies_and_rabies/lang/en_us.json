@@ -30,5 +30,8 @@
   "item.rubies_and_rabies.olden_plank_stairs": "Olden Plank Stairs",
   "item.rubies_and_rabies.olden_plank_fence": "Olden Plank Fence",
   "item.rubies_and_rabies.olden_plank_pressure_plate": "Olden Plank Fence",
-  "item.rubies_and_rabies.olden_bulb": "Olden Bulb"
+  "item.rubies_and_rabies.olden_bulb": "Olden Bulb",
+  "entity.rubies_and_rabies.archblaze": "Archblaze",
+  "item.rubies_and_rabies.archblaze_spawn_egg": "Archblaze Spawn Egg",
+  "item.rubies_and_rabies.archfirecharge": "Archfirecharge"
 }

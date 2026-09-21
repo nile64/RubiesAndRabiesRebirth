@@ -1,0 +1,10 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "soul_sand_valley",
+  "spawners": {
+    "type": "rubies_and_rabies:archblaze",
+    "weight": 1,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}
