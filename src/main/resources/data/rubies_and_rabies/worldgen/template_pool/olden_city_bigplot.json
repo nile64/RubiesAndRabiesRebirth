@@ -1,0 +1,17 @@
+{
+  "name": "rubies_and_rabies:olden_city_bigplot",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "rubies_and_rabies:diner",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    }
+  ]
+}
