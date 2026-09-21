@@ -709,19 +709,19 @@
     "files": [
       "src/main/java/net/mcreator/rubiesandrabies/client/RubiesAndRabiesModSkyboxRenderer.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModScreens.java",
-      "src/main/java/net/mcreator/rubiesandrabies/network/MenuStateUpdateMessage.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModMenus.java",
+      "src/main/java/net/mcreator/rubiesandrabies/network/MenuStateUpdateMessage.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModBlocks.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModBlockEntities.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModItems.java",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModEntities.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModEntityRenderers.java",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModEntities.java",
       "src/main/java/net/mcreator/rubiesandrabies/RubiesAndRabiesMod.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModSounds.java",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModTabs.java",
-      "src/main/resources/pack.mcmeta",
       "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/resources/assets/rubies_and_rabies/sounds.json",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModTabs.java",
+      "src/main/resources/pack.mcmeta",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModModels.java"
     ]
   },
