@@ -3,7 +3,7 @@
   "fallback": "minecraft:empty",
   "elements": [
     {
-      "weight": 3,
+      "weight": 2,
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "rubies_and_rabies:crossroad",
@@ -18,6 +18,17 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "rubies_and_rabies:straight_road",
+        "projection": "rigid",
+        "processors": {
+          "processors": []
+        }
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "rubies_and_rabies:alleyway",
         "projection": "rigid",
         "processors": {
           "processors": []

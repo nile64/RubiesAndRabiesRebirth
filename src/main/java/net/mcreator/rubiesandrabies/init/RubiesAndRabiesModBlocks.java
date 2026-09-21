@@ -39,6 +39,7 @@ public class RubiesAndRabiesModBlocks {
 	public static final DeferredBlock<Block> OLDEN_PLANK_PRESSURE_PLATE;
 	public static final DeferredBlock<Block> OLDEN_BULB;
 	public static final DeferredBlock<Block> OLDEN_CRATE;
+	public static final DeferredBlock<Block> OLDEN_DOOR;
 	static {
 		NINTEENOHFOURDIMENSION_PORTAL = register("ninteenohfourdimension_portal", NinteenohfourPortalBlock::new);
 		OLD_GRASS = register("old_grass", OldGrassBlock::new);
@@ -63,6 +64,7 @@ public class RubiesAndRabiesModBlocks {
 		OLDEN_PLANK_PRESSURE_PLATE = register("olden_plank_pressure_plate", OldenPlankPressurePlateBlock::new);
 		OLDEN_BULB = register("olden_bulb", OldenBulbBlock::new);
 		OLDEN_CRATE = register("olden_crate", OldenCrateBlock::new);
+		OLDEN_DOOR = register("olden_door", OldenDoorBlock::new);
 	}
 
 	// Start of user code block custom blocks

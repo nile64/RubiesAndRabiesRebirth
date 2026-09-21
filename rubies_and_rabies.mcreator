@@ -594,7 +594,9 @@
           "src/main/resources/data/rubies_and_rabies/worldgen/structure_set/olden_city.json",
           "src/main/resources/data/rubies_and_rabies/worldgen/template_pool/olden_city_roads.json",
           "src/main/resources/data/rubies_and_rabies/worldgen/structure/olden_city.json",
-          "src/main/resources/data/rubies_and_rabies/worldgen/template_pool/olden_city.json"
+          "src/main/resources/data/rubies_and_rabies/worldgen/template_pool/olden_city_rightturn.json",
+          "src/main/resources/data/rubies_and_rabies/worldgen/template_pool/olden_city.json",
+          "src/main/resources/data/rubies_and_rabies/worldgen/template_pool/olden_city_leftturn.json"
         ]
       },
       "path": "~/1904"
@@ -720,6 +722,31 @@
         ]
       },
       "path": "~/Nether/Fortress/Archblaze"
+    },
+    {
+      "name": "OldenDoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "olden_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubies_and_rabies/models/block/olden_door_top_right.json",
+          "src/main/resources/assets/rubies_and_rabies/items/olden_door.json",
+          "src/main/resources/assets/rubies_and_rabies/models/block/olden_door_bottom_right_open.json",
+          "src/main/resources/assets/rubies_and_rabies/models/item/olden_door.json",
+          "src/main/resources/assets/rubies_and_rabies/models/block/olden_door_top_right_open.json",
+          "src/main/resources/assets/rubies_and_rabies/models/block/olden_door_top_left.json",
+          "src/main/resources/data/rubies_and_rabies/loot_table/blocks/olden_door.json",
+          "src/main/resources/assets/rubies_and_rabies/models/block/olden_door_bottom_left_open.json",
+          "src/main/resources/assets/rubies_and_rabies/models/block/olden_door_bottom_right.json",
+          "src/main/resources/assets/rubies_and_rabies/blockstates/olden_door.json",
+          "src/main/resources/assets/rubies_and_rabies/models/block/olden_door_bottom_left.json",
+          "src/main/java/net/mcreator/rubiesandrabies/block/OldenDoorBlock.java",
+          "src/main/resources/assets/rubies_and_rabies/models/block/olden_door_top_left_open.json"
+        ]
+      },
+      "path": "~/1904/Blocks/Decoration"
     }
   ],
   "variable_elements": [],
@@ -737,6 +764,10 @@
     "BLOCKS:minecraft:dirt": [
       "CUSTOM:OldGrass",
       "CUSTOM:OldDirt"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Ninteenohfour@CUSTOM:OldGrass",
+      "~Ninteenohfour@CUSTOM:OldDirt"
     ],
     "BLOCKS:minecraft:mineable/shovel": [
       "~OldDirt@CUSTOM:OldDirt",
@@ -774,6 +805,7 @@
       "~PolishedOldStairs@CUSTOM:PolishedOldStairs"
     ],
     "BLOCKS:minecraft:mineable/axe": [
+      "~OldenDoor@CUSTOM:OldenDoor",
       "~OldenPlankPressurePlate@CUSTOM:OldenPlankPressurePlate",
       "~OldenPlankFence@CUSTOM:OldenPlankFence",
       "~OldenPlankStairs@CUSTOM:OldenPlankStairs",
@@ -787,9 +819,8 @@
     "BLOCKS:minecraft:wooden_pressure_plates": [
       "~OldenPlankPressurePlate@CUSTOM:OldenPlankPressurePlate"
     ],
-    "BLOCKS:minecraft:overworld_carver_replaceables": [
-      "~Ninteenohfour@CUSTOM:OldGrass",
-      "~Ninteenohfour@CUSTOM:OldDirt"
+    "BLOCKS:minecraft:wooden_doors": [
+      "~OldenDoor@CUSTOM:OldenDoor"
     ]
   },
   "tab_element_order": {},
@@ -829,7 +860,8 @@
       "item.rubies_and_rabies.olden_bulb": "Olden Bulb",
       "entity.rubies_and_rabies.archblaze": "Archblaze",
       "item.rubies_and_rabies.archblaze_spawn_egg": "Archblaze Spawn Egg",
-      "item.rubies_and_rabies.archfirecharge": "Archfirecharge"
+      "item.rubies_and_rabies.archfirecharge": "Archfirecharge",
+      "item.rubies_and_rabies.olden_door": "Olden Door"
     }
   },
   "metadata": {

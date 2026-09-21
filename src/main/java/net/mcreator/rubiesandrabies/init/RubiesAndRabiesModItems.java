@@ -10,6 +10,7 @@ import net.neoforged.neoforge.registries.DeferredHolder;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.SpawnEggItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.rubiesandrabies.item.OldPebbleItem;
@@ -48,6 +49,7 @@ public class RubiesAndRabiesModItems {
 	public static final DeferredItem<Item> OLDEN_CRATE;
 	public static final DeferredItem<Item> ARCHBLAZE_SPAWN_EGG;
 	public static final DeferredItem<Item> ARCHFIRECHARGE;
+	public static final DeferredItem<Item> OLDEN_DOOR;
 	static {
 		NINTEENOHFOURDIMENSION = register("ninteenohfourdimension", NinteenohfourItem::new);
 		OLD_GRASS = block(RubiesAndRabiesModBlocks.OLD_GRASS);
@@ -76,6 +78,7 @@ public class RubiesAndRabiesModItems {
 		OLDEN_CRATE = block(RubiesAndRabiesModBlocks.OLDEN_CRATE);
 		ARCHBLAZE_SPAWN_EGG = register("archblaze_spawn_egg", properties -> new SpawnEggItem(properties.spawnEgg(RubiesAndRabiesModEntities.ARCHBLAZE.get())));
 		ARCHFIRECHARGE = register("archfirecharge", ArchfirechargeItem::new);
+		OLDEN_DOOR = doubleBlock(RubiesAndRabiesModBlocks.OLDEN_DOOR);
 	}
 
 	// Start of user code block custom items
@@ -90,5 +93,13 @@ public class RubiesAndRabiesModItems {
 
 	private static DeferredItem<Item> block(DeferredHolder<Block, Block> block, Item.Properties properties) {
 		return REGISTRY.registerItem(block.getId().getPath(), prop -> new BlockItem(block.get(), prop), () -> properties);
+	}
+
+	private static DeferredItem<Item> doubleBlock(DeferredHolder<Block, Block> block) {
+		return doubleBlock(block, new Item.Properties());
+	}
+
+	private static DeferredItem<Item> doubleBlock(DeferredHolder<Block, Block> block, Item.Properties properties) {
+		return REGISTRY.registerItem(block.getId().getPath(), prop -> new DoubleHighBlockItem(block.get(), prop), () -> properties);
 	}
 }

@@ -27,7 +27,7 @@
         "fallbackPool": "",
         "poolParts": [
           {
-            "weight": 3,
+            "weight": 2,
             "structure": "crossroad",
             "projection": "rigid",
             "ignoredBlocks": []
@@ -35,6 +35,12 @@
           {
             "weight": 7,
             "structure": "straight_road",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          },
+          {
+            "weight": 2,
+            "structure": "alleyway",
             "projection": "rigid",
             "ignoredBlocks": []
           }
@@ -59,6 +65,30 @@
           {
             "weight": 1,
             "structure": "diner",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          }
+        ]
+      },
+      {
+        "poolName": "leftturn",
+        "fallbackPool": "",
+        "poolParts": [
+          {
+            "weight": 1,
+            "structure": "crossroad_connector_left",
+            "projection": "rigid",
+            "ignoredBlocks": []
+          }
+        ]
+      },
+      {
+        "poolName": "rightturn",
+        "fallbackPool": "",
+        "poolParts": [
+          {
+            "weight": 1,
+            "structure": "crossroad_connector_right",
             "projection": "rigid",
             "ignoredBlocks": []
           }

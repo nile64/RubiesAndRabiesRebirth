@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "rubies_and_rabies:blocks/olden_door",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "rubies_and_rabies:olden_door",
+          "conditions": [
+            {
+              "block": "rubies_and_rabies:olden_door",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -46,6 +46,7 @@ public class RubiesAndRabiesModTabs {
 				tabData.accept(RubiesAndRabiesModBlocks.OLDEN_PLANK_PRESSURE_PLATE.get().asItem());
 				tabData.accept(RubiesAndRabiesModBlocks.OLDEN_BULB.get().asItem());
 				tabData.accept(RubiesAndRabiesModBlocks.OLDEN_CRATE.get().asItem());
+				tabData.accept(RubiesAndRabiesModBlocks.OLDEN_DOOR.get().asItem());
 			}).build());
 
 	@SubscribeEvent
