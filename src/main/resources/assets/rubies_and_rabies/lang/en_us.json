@@ -8,8 +8,6 @@
   "entity.rubies_and_rabies.mummy": "Mummy",
   "item.rubies_and_rabies.mummy_spawn_egg": "Mummy Spawn Egg",
   "item.rubies_and_rabies.ninteenohfourdimension": "1904 Switch",
-  "item.rubies_and_rabies.old_stone": "Old Stone",
-  "item.rubies_and_rabies.old_pebble": "Gross Tar",
   "item.rubies_and_rabies.chisled_old": "Chisled Olden",
   "item.rubies_and_rabies.polished_old": "Polished Olden",
   "item.rubies_and_rabies.old_bricks": "Olden Bricks",
@@ -29,5 +27,7 @@
   "item.rubies_and_rabies.olden_plank_pressure_plate": "Olden Plank Fence",
   "item.rubies_and_rabies.olden_bulb": "Olden Bulb",
   "item.rubies_and_rabies.olden_crate": "Olden Crate",
-  "gui.rubies_and_rabies.olden_crate_gui.label_olden_crate": "Olden Crate"
+  "gui.rubies_and_rabies.olden_crate_gui.label_olden_crate": "Olden Crate",
+  "item.rubies_and_rabies.old_stone": "Old Stone",
+  "item.rubies_and_rabies.old_pebble": "Gross Tar"
 }

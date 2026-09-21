@@ -595,6 +595,17 @@
     }
   ],
   "tag_elements": {
+    "BLOCKS:minecraft:dirt": [
+      "CUSTOM:OldGrass",
+      "CUSTOM:OldDirt"
+    ],
+    "BLOCKS:minecraft:logs": [
+      "CUSTOM:OldenLog"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Ninteenohfour@CUSTOM:OldGrass",
+      "~Ninteenohfour@CUSTOM:OldDirt"
+    ],
     "BLOCKS:minecraft:mineable/shovel": [
       "~OldDirt@CUSTOM:OldDirt",
       "~OldGrass@CUSTOM:OldGrass"
@@ -605,7 +616,6 @@
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~OldenCrate@CUSTOM:OldenCrate",
       "~OldenBulb@CUSTOM:OldenBulb",
-      "~OldStone@CUSTOM:OldStone",
       "~OldTilesStairs@CUSTOM:OldTilesStairs",
       "~OldBricksStairs@CUSTOM:OldBricksStairs",
       "~PolishedOldStairs@CUSTOM:PolishedOldStairs",
@@ -616,7 +626,8 @@
       "~OldPillar@CUSTOM:OldPillar",
       "~OldBricks@CUSTOM:OldBricks",
       "~PolishedOld@CUSTOM:PolishedOld",
-      "~ChisledOld@CUSTOM:ChisledOld"
+      "~ChisledOld@CUSTOM:ChisledOld",
+      "~OldStone@CUSTOM:OldStone"
     ],
     "BLOCKS:minecraft:slabs": [
       "~OldenPlankSlab@CUSTOM:OldenPlankSlab",
@@ -638,17 +649,6 @@
       "~OldenLog@CUSTOM:OldenLog",
       "~OldenPlank@CUSTOM:OldenPlank"
     ],
-    "BLOCKS:minecraft:dirt": [
-      "CUSTOM:OldGrass",
-      "CUSTOM:OldDirt"
-    ],
-    "BLOCKS:minecraft:logs": [
-      "CUSTOM:OldenLog"
-    ],
-    "BLOCKS:minecraft:overworld_carver_replaceables": [
-      "~Ninteenohfour@CUSTOM:OldGrass",
-      "~Ninteenohfour@CUSTOM:OldDirt"
-    ],
     "BLOCKS:minecraft:wooden_fences": [
       "~OldenPlankFence@CUSTOM:OldenPlankFence"
     ],
@@ -668,8 +668,6 @@
       "entity.rubies_and_rabies.mummy": "Mummy",
       "item.rubies_and_rabies.mummy_spawn_egg": "Mummy Spawn Egg",
       "item.rubies_and_rabies.ninteenohfourdimension": "1904 Switch",
-      "item.rubies_and_rabies.old_stone": "Old Stone",
-      "item.rubies_and_rabies.old_pebble": "Gross Tar",
       "item.rubies_and_rabies.chisled_old": "Chisled Olden",
       "item.rubies_and_rabies.polished_old": "Polished Olden",
       "item.rubies_and_rabies.old_bricks": "Olden Bricks",
@@ -689,7 +687,9 @@
       "item.rubies_and_rabies.olden_plank_pressure_plate": "Olden Plank Fence",
       "item.rubies_and_rabies.olden_bulb": "Olden Bulb",
       "item.rubies_and_rabies.olden_crate": "Olden Crate",
-      "gui.rubies_and_rabies.olden_crate_gui.label_olden_crate": "Olden Crate"
+      "gui.rubies_and_rabies.olden_crate_gui.label_olden_crate": "Olden Crate",
+      "item.rubies_and_rabies.old_stone": "Old Stone",
+      "item.rubies_and_rabies.old_pebble": "Gross Tar"
     }
   },
   "metadata": {
