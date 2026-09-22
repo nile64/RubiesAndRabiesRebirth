@@ -43,7 +43,7 @@ public class RubiesAndRabiesModMobEffects {
 
 	private static void expireEffects(Entity entity, MobEffectInstance effectInstance) {
 		if (effectInstance.is(RABIES)) {
-			RabiesEffectExpiresProcedure.execute();
+			RabiesEffectExpiresProcedure.execute(entity.level(), entity);
 		}
 	}
 }

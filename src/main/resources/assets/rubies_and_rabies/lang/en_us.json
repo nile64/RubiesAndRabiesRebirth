@@ -43,8 +43,9 @@
   "death.attack.rabies_water_damage.player": "%1$s died whilst trying to escape %2$s",
   "death.attack.rabies_water_damage.item": "%1$s was killed by %2$s using %3$s",
   "death.attack.rabies_water_damage": "%1$s died",
-  "death.attack.rabies_damage.player": "%1$s died whilst trying to escape %2$s",
-  "death.attack.rabies_damage": "%1$s died",
-  "death.attack.rabies_damage.item": "%1$s was killed by %2$s using %3$s",
-  "effect.rubies_and_rabies.rabies": "Rabies"
+  "death.attack.rabies_damage.player": "%1$s was being chased by %2$s and took the easy way out and died from rabies",
+  "death.attack.rabies_damage": "Rabies got to  %1$s",
+  "death.attack.rabies_damage.item": "%1$s was so overwhelmed by %2$s (using %3$s) infecting them with rabies that they died instantly.",
+  "effect.rubies_and_rabies.rabies": "Rabies",
+  "enchantment.rubies_and_rabies.infernal": "Infernal"
 }
