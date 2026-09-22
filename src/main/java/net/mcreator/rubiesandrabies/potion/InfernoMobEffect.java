@@ -23,7 +23,7 @@ public class InfernoMobEffect extends MobEffect {
 
 	@Override
 	public boolean applyEffectTick(ServerLevel level, LivingEntity entity, int amplifier) {
-		InfernoOnEffectActiveTickProcedure.execute();
+		InfernoOnEffectActiveTickProcedure.execute(level, entity);
 		return super.applyEffectTick(level, entity, amplifier);
 	}
 }

@@ -5,8 +5,8 @@
     "exhaustion": 0.1,
     "scaling": "never",
     "effects": "hurt",
-    "normalDeathMessage": "%1$s is a hydrophobic idiot.",
-    "itemDeathMessage": "%1$s was put out of their misery in a very miserable way by %2$s using %3$s",
-    "playerDeathMessage": "%1$s jumped into fucking water with rabies and died whilst trying to escape %2$s like an idiot"
+    "normalDeathMessage": "%1$s died",
+    "itemDeathMessage": "%1$s was killed by %2$s using %3$s",
+    "playerDeathMessage": "%1$s died whilst trying to escape %2$s"
   }
 }

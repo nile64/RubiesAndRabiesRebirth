@@ -39,5 +39,12 @@
   "item.rubies_and_rabies.archblazepowder": "Archblazepowder",
   "item.rubies_and_rabies.blazecore": "Blazecore",
   "item.rubies_and_rabies.ancientscripts": "Ancient Scripts",
-  "effect.rubies_and_rabies.inferno": "Inferno"
+  "effect.rubies_and_rabies.inferno": "Inferno",
+  "death.attack.rabies_water_damage.player": "%1$s died whilst trying to escape %2$s",
+  "death.attack.rabies_water_damage.item": "%1$s was killed by %2$s using %3$s",
+  "death.attack.rabies_water_damage": "%1$s died",
+  "death.attack.rabies_damage.player": "%1$s died whilst trying to escape %2$s",
+  "death.attack.rabies_damage": "%1$s died",
+  "death.attack.rabies_damage.item": "%1$s was killed by %2$s using %3$s",
+  "effect.rubies_and_rabies.rabies": "Rabies"
 }
