@@ -12,7 +12,7 @@ import net.mcreator.rubiesandrabies.procedures.InfernoOnEffectActiveTickProcedur
 
 public class InfernoMobEffect extends MobEffect {
 	public InfernoMobEffect() {
-		super(MobEffectCategory.HARMFUL, -65536, mobEffectInstance -> ParticleTypes.SOUL_FIRE_FLAME);
+		super(MobEffectCategory.HARMFUL, -65536, mobEffectInstance -> ParticleTypes.SMOKE);
 		this.withSoundOnAdded(BuiltInRegistries.SOUND_EVENT.getValue(Identifier.parse("item.flintandsteel.use")));
 	}
 
@@ -23,7 +23,7 @@ public class InfernoMobEffect extends MobEffect {
 
 	@Override
 	public boolean applyEffectTick(ServerLevel level, LivingEntity entity, int amplifier) {
-		InfernoOnEffectActiveTickProcedure.execute(level, entity);
+		InfernoOnEffectActiveTickProcedure.execute(level, entity.getX(), entity.getY(), entity.getZ(), entity);
 		return super.applyEffectTick(level, entity, amplifier);
 	}
 }

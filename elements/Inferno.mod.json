@@ -8,7 +8,7 @@
       "value": -65536,
       "falpha": 0.0
     },
-    "particle": "SOUL_FIRE_FLAME",
+    "particle": "SMOKE_NORMAL",
     "onAddedSound": "item.flintandsteel.use",
     "isInstant": false,
     "mobEffectCategory": "HARMFUL",
