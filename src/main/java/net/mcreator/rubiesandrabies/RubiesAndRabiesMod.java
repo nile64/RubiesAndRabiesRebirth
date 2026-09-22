@@ -53,6 +53,7 @@ public class RubiesAndRabiesMod {
 		RubiesAndRabiesModItems.REGISTRY.register(modEventBus);
 		RubiesAndRabiesModEntities.REGISTRY.register(modEventBus);
 		RubiesAndRabiesModTabs.REGISTRY.register(modEventBus);
+		RubiesAndRabiesModMobEffects.REGISTRY.register(modEventBus);
 		RubiesAndRabiesModMenus.REGISTRY.register(modEventBus);
 		// Start of user code block mod init
 		// End of user code block mod init

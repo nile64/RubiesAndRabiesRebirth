@@ -860,6 +860,33 @@
         ]
       },
       "path": "~/Nether/Fortress/Archblaze"
+    },
+    {
+      "name": "InfernoOnEffectActiveTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inferno_on_effect_active_tick",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/procedures/InfernoOnEffectActiveTickProcedure.java"
+        ]
+      },
+      "path": "~/Nether/Fortress/Archblaze/inferno enchantment"
+    },
+    {
+      "name": "Inferno",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "inferno",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/potion/InfernoMobEffect.java"
+        ]
+      },
+      "path": "~/Nether/Fortress/Archblaze/inferno enchantment"
     }
   ],
   "variable_elements": [],
@@ -978,7 +1005,8 @@
       "item.rubies_and_rabies.archblazerod": "Archblazerod",
       "item.rubies_and_rabies.archblazepowder": "Archblazepowder",
       "item.rubies_and_rabies.blazecore": "Blazecore",
-      "item.rubies_and_rabies.ancientscripts": "Ancient Scripts"
+      "item.rubies_and_rabies.ancientscripts": "Ancient Scripts",
+      "effect.rubies_and_rabies.inferno": "Inferno"
     }
   },
   "metadata": {
@@ -987,6 +1015,7 @@
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModMenus.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModScreens.java",
       "src/main/java/net/mcreator/rubiesandrabies/network/MenuStateUpdateMessage.java",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModMobEffects.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModBlocks.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModItems.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModEntities.java",
@@ -1029,7 +1058,12 @@
             "children": [
               {
                 "name": "Archblaze",
-                "children": []
+                "children": [
+                  {
+                    "name": "inferno enchantment",
+                    "children": []
+                  }
+                ]
               }
             ]
           }
