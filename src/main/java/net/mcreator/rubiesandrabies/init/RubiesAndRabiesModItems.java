@@ -13,9 +13,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.BlockItem;
 
-import net.mcreator.rubiesandrabies.item.OldPebbleItem;
-import net.mcreator.rubiesandrabies.item.NinteenohfourItem;
-import net.mcreator.rubiesandrabies.item.ArchfirechargeItem;
+import net.mcreator.rubiesandrabies.item.*;
 import net.mcreator.rubiesandrabies.RubiesAndRabiesMod;
 
 import java.util.function.Function;
@@ -50,6 +48,10 @@ public class RubiesAndRabiesModItems {
 	public static final DeferredItem<Item> ARCHBLAZE_SPAWN_EGG;
 	public static final DeferredItem<Item> ARCHFIRECHARGE;
 	public static final DeferredItem<Item> OLDEN_DOOR;
+	public static final DeferredItem<Item> ARCHBLAZEROD;
+	public static final DeferredItem<Item> ARCHBLAZEPOWDER;
+	public static final DeferredItem<Item> BLAZECORE;
+	public static final DeferredItem<Item> ANCIENTSCRIPTS;
 	static {
 		NINTEENOHFOURDIMENSION = register("ninteenohfourdimension", NinteenohfourItem::new);
 		OLD_GRASS = block(RubiesAndRabiesModBlocks.OLD_GRASS);
@@ -79,6 +81,10 @@ public class RubiesAndRabiesModItems {
 		ARCHBLAZE_SPAWN_EGG = register("archblaze_spawn_egg", properties -> new SpawnEggItem(properties.spawnEgg(RubiesAndRabiesModEntities.ARCHBLAZE.get())));
 		ARCHFIRECHARGE = register("archfirecharge", ArchfirechargeItem::new);
 		OLDEN_DOOR = doubleBlock(RubiesAndRabiesModBlocks.OLDEN_DOOR);
+		ARCHBLAZEROD = register("archblazerod", ArchblazerodItem::new);
+		ARCHBLAZEPOWDER = register("archblazepowder", ArchblazepowderItem::new);
+		BLAZECORE = register("blazecore", BlazecoreItem::new);
+		ANCIENTSCRIPTS = register("ancientscripts", AncientscriptsItem::new);
 	}
 
 	// Start of user code block custom items

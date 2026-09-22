@@ -8,7 +8,7 @@
   ],
   "spawners": {
     "type": "rubies_and_rabies:mummy",
-    "weight": 5,
+    "weight": 25,
     "minCount": 1,
     "maxCount": 1
   }

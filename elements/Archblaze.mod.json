@@ -43,7 +43,7 @@
       "value": -16763956,
       "falpha": 0.0
     },
-    "spawnEggTexture": "",
+    "spawnEggTexture": "arch_blaze_spawn_egg",
     "creativeTabs": [
       "MISC"
     ],

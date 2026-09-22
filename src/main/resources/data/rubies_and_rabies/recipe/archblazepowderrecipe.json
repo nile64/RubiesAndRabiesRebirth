@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "rubies_and_rabies:archblazerod"
+  ],
+  "result": {
+    "id": "rubies_and_rabies:archblazepowder",
+    "count": 2
+  }
+}

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "rubies_and_rabies:item/archblaze_spawn_egg_generated"
+    "layer0": "rubies_and_rabies:item/arch_blaze_spawn_egg"
   }
 }

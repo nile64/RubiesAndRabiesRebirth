@@ -123,11 +123,11 @@
       "registry_name": "mummy",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/rubiesandrabies/entity/MummyEntity.java",
-          "src/main/resources/data/rubies_and_rabies/neoforge/biome_modifier/mummy_biome_modifier.json",
           "src/main/java/net/mcreator/rubiesandrabies/client/renderer/MummyRenderer.java",
+          "src/main/resources/assets/rubies_and_rabies/models/item/mummy_spawn_egg.json",
           "src/main/resources/assets/rubies_and_rabies/items/mummy_spawn_egg.json",
-          "src/main/resources/assets/rubies_and_rabies/models/item/mummy_spawn_egg.json"
+          "src/main/resources/data/rubies_and_rabies/neoforge/biome_modifier/mummy_biome_modifier.json",
+          "src/main/java/net/mcreator/rubiesandrabies/entity/MummyEntity.java"
         ]
       },
       "path": "~/Overworld/Biomes/Desert"
@@ -609,11 +609,11 @@
       "registry_name": "archblaze",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/rubiesandrabies/entity/ArchblazeEntity.java",
+          "src/main/resources/assets/rubies_and_rabies/items/archblaze_spawn_egg.json",
           "src/main/resources/assets/rubies_and_rabies/models/item/archblaze_spawn_egg.json",
-          "src/main/resources/data/rubies_and_rabies/neoforge/biome_modifier/archblaze_biome_modifier.json",
           "src/main/java/net/mcreator/rubiesandrabies/client/renderer/ArchblazeRenderer.java",
-          "src/main/resources/assets/rubies_and_rabies/items/archblaze_spawn_egg.json"
+          "src/main/java/net/mcreator/rubiesandrabies/entity/ArchblazeEntity.java",
+          "src/main/resources/data/rubies_and_rabies/neoforge/biome_modifier/archblaze_biome_modifier.json"
         ]
       },
       "path": "~/Nether/Fortress/Archblaze"
@@ -747,6 +747,119 @@
         ]
       },
       "path": "~/1904/Blocks/Decoration"
+    },
+    {
+      "name": "Archblazerod",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "archblazerod",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/item/ArchblazerodItem.java",
+          "src/main/resources/assets/rubies_and_rabies/models/item/archblazerod.json",
+          "src/main/resources/assets/rubies_and_rabies/items/archblazerod.json"
+        ]
+      },
+      "path": "~/Nether/Fortress/Archblaze"
+    },
+    {
+      "name": "Archblazepowder",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "archblazepowder",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubies_and_rabies/items/archblazepowder.json",
+          "src/main/java/net/mcreator/rubiesandrabies/item/ArchblazepowderItem.java",
+          "src/main/resources/assets/rubies_and_rabies/models/item/archblazepowder.json"
+        ]
+      },
+      "path": "~/Nether/Fortress/Archblaze"
+    },
+    {
+      "name": "Archblazepowderrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "archblazepowderrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubies_and_rabies/advancement/recipes/archblazepowderrecipe.json",
+          "src/main/resources/data/rubies_and_rabies/recipe/archblazepowderrecipe.json"
+        ]
+      },
+      "path": "~/Nether/Fortress/Archblaze"
+    },
+    {
+      "name": "Blazecore",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blazecore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubiesandrabies/item/BlazecoreItem.java",
+          "src/main/resources/assets/rubies_and_rabies/items/blazecore.json",
+          "src/main/resources/assets/rubies_and_rabies/models/item/blazecore.json"
+        ]
+      },
+      "path": "~/Nether/Fortress/Archblaze"
+    },
+    {
+      "name": "Archblazedrops",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "archblazedrops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubies_and_rabies/loot_table/entities/archblaze.json"
+        ]
+      },
+      "path": "~/Nether/Fortress/Archblaze"
+    },
+    {
+      "name": "Ancientscripts",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ancientscripts",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/rubies_and_rabies/items/ancientscripts.json",
+          "src/main/java/net/mcreator/rubiesandrabies/item/AncientscriptsItem.java",
+          "src/main/resources/assets/rubies_and_rabies/models/item/ancientscripts.json"
+        ]
+      },
+      "path": "~/Overworld/Biomes/Desert"
+    },
+    {
+      "name": "Mummyloottable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mummyloottable",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubies_and_rabies/loot_table/entities/mummy.json"
+        ]
+      },
+      "path": "~/Overworld/Biomes/Desert"
+    },
+    {
+      "name": "Othereyeofenderrecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "othereyeofenderrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubies_and_rabies/recipe/othereyeofenderrecipe.json"
+        ]
+      },
+      "path": "~/Nether/Fortress/Archblaze"
     }
   ],
   "variable_elements": [],
@@ -772,9 +885,6 @@
     "BLOCKS:minecraft:mineable/shovel": [
       "~OldDirt@CUSTOM:OldDirt",
       "~OldGrass@CUSTOM:OldGrass"
-    ],
-    "ENTITIES:minecraft:undead": [
-      "~Mummy@CUSTOM:Mummy"
     ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~OldenCrate@CUSTOM:OldenCrate",
@@ -821,6 +931,9 @@
     ],
     "BLOCKS:minecraft:wooden_doors": [
       "~OldenDoor@CUSTOM:OldenDoor"
+    ],
+    "ENTITIES:minecraft:undead": [
+      "~Mummy@CUSTOM:Mummy"
     ]
   },
   "tab_element_order": {},
@@ -861,26 +974,30 @@
       "entity.rubies_and_rabies.archblaze": "Archblaze",
       "item.rubies_and_rabies.archblaze_spawn_egg": "Archblaze Spawn Egg",
       "item.rubies_and_rabies.archfirecharge": "Archfirecharge",
-      "item.rubies_and_rabies.olden_door": "Olden Door"
+      "item.rubies_and_rabies.olden_door": "Olden Door",
+      "item.rubies_and_rabies.archblazerod": "Archblazerod",
+      "item.rubies_and_rabies.archblazepowder": "Archblazepowder",
+      "item.rubies_and_rabies.blazecore": "Blazecore",
+      "item.rubies_and_rabies.ancientscripts": "Ancient Scripts"
     }
   },
   "metadata": {
     "files": [
       "src/main/java/net/mcreator/rubiesandrabies/client/RubiesAndRabiesModSkyboxRenderer.java",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModScreens.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModMenus.java",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModScreens.java",
       "src/main/java/net/mcreator/rubiesandrabies/network/MenuStateUpdateMessage.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModBlocks.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModItems.java",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModEntityRenderers.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModEntities.java",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModEntityRenderers.java",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModModels.java",
+      "src/main/resources/pack.mcmeta",
       "src/main/java/net/mcreator/rubiesandrabies/RubiesAndRabiesMod.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModSounds.java",
-      "src/main/resources/META-INF/neoforge.mods.toml",
-      "src/main/resources/assets/rubies_and_rabies/sounds.json",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModTabs.java",
-      "src/main/resources/pack.mcmeta",
-      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModModels.java"
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/assets/rubies_and_rabies/sounds.json"
     ]
   },
   "foldersRoot": {

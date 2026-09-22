@@ -34,5 +34,9 @@
   "entity.rubies_and_rabies.archblaze": "Archblaze",
   "item.rubies_and_rabies.archblaze_spawn_egg": "Archblaze Spawn Egg",
   "item.rubies_and_rabies.archfirecharge": "Archfirecharge",
-  "item.rubies_and_rabies.olden_door": "Olden Door"
+  "item.rubies_and_rabies.olden_door": "Olden Door",
+  "item.rubies_and_rabies.archblazerod": "Archblazerod",
+  "item.rubies_and_rabies.archblazepowder": "Archblazepowder",
+  "item.rubies_and_rabies.blazecore": "Blazecore",
+  "item.rubies_and_rabies.ancientscripts": "Ancient Scripts"
 }
