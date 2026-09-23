@@ -2,7 +2,15 @@
   "description": {
     "translate": "enchantment.rubies_and_rabies.infernal"
   },
-  "supported_items": "#minecraft:enchantable/sword",
+  "supported_items": [
+    "minecraft:wooden_sword",
+    "minecraft:stone_sword",
+    "minecraft:copper_sword",
+    "minecraft:iron_sword",
+    "minecraft:golden_sword",
+    "minecraft:diamond_sword",
+    "minecraft:netherite_sword"
+  ],
   "weight": 1,
   "max_level": 1,
   "min_cost": {
@@ -17,5 +25,15 @@
   "slots": [
     "any"
   ],
-  "exclusive_set": []
+  "exclusive_set": [],
+  "effects": {
+    "minecraft:mob_experience": [
+      {
+        "effect": {
+          "type": "minecraft:set",
+          "value": 1
+        }
+      }
+    ]
+  }
 }
