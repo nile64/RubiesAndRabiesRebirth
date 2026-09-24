@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:chicken",
+    "rubies_and_rabies:archblazepowder"
+  ],
+  "result": {
+    "id": "minecraft:cooked_chicken",
+    "count": 1
+  }
+}

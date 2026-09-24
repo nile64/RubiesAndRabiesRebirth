@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:rabbit",
+    "rubies_and_rabies:archblazepowder"
+  ],
+  "result": {
+    "id": "minecraft:cooked_rabbit",
+    "count": 1
+  }
+}

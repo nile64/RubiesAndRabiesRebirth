@@ -4,6 +4,6 @@ import net.minecraft.world.item.Item;
 
 public class ArchblazerodItem extends Item {
 	public ArchblazerodItem(Item.Properties properties) {
-		super(properties);
+		super(properties.fireResistant());
 	}
 }

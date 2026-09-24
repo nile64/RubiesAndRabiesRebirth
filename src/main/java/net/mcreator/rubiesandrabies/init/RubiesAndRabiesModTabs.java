@@ -56,6 +56,10 @@ public class RubiesAndRabiesModTabs {
 		} else if (tabData.getTabKey() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(RubiesAndRabiesModItems.MUMMY_SPAWN_EGG.get());
 			tabData.accept(RubiesAndRabiesModItems.ARCHBLAZE_SPAWN_EGG.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
+			tabData.accept(RubiesAndRabiesModItems.ARCHBLAZEROD.get());
+			tabData.accept(RubiesAndRabiesModItems.ARCHBLAZEPOWDER.get());
+			tabData.accept(RubiesAndRabiesModItems.BLAZECORE.get());
 		}
 	}
 }

@@ -1047,6 +1047,115 @@
         ]
       },
       "path": "~/Nether/Fortress/Archblaze/inferno enchantment"
+    },
+    {
+      "name": "Steak",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steak",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubies_and_rabies/advancement/recipes/steak.json",
+          "src/main/resources/data/rubies_and_rabies/recipe/steak.json"
+        ]
+      },
+      "path": "~/Nether/Fortress/Archblaze/archblaze powder crafts"
+    },
+    {
+      "name": "Chicken",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chicken",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubies_and_rabies/recipe/chicken.json",
+          "src/main/resources/data/rubies_and_rabies/advancement/recipes/chicken.json"
+        ]
+      },
+      "path": "~/Nether/Fortress/Archblaze/archblaze powder crafts"
+    },
+    {
+      "name": "Pork",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pork",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubies_and_rabies/advancement/recipes/pork.json",
+          "src/main/resources/data/rubies_and_rabies/recipe/pork.json"
+        ]
+      },
+      "path": "~/Nether/Fortress/Archblaze/archblaze powder crafts"
+    },
+    {
+      "name": "Mutton",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mutton",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubies_and_rabies/recipe/mutton.json",
+          "src/main/resources/data/rubies_and_rabies/advancement/recipes/mutton.json"
+        ]
+      },
+      "path": "~/Nether/Fortress/Archblaze/archblaze powder crafts"
+    },
+    {
+      "name": "Rabbit",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rabbit",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubies_and_rabies/advancement/recipes/rabbit.json",
+          "src/main/resources/data/rubies_and_rabies/recipe/rabbit.json"
+        ]
+      },
+      "path": "~/Nether/Fortress/Archblaze/archblaze powder crafts"
+    },
+    {
+      "name": "Cod",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cod",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubies_and_rabies/recipe/cod.json",
+          "src/main/resources/data/rubies_and_rabies/advancement/recipes/cod.json"
+        ]
+      },
+      "path": "~/Nether/Fortress/Archblaze/archblaze powder crafts"
+    },
+    {
+      "name": "Salmon",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "salmon",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubies_and_rabies/recipe/salmon.json",
+          "src/main/resources/data/rubies_and_rabies/advancement/recipes/salmon.json"
+        ]
+      },
+      "path": "~/Nether/Fortress/Archblaze/archblaze powder crafts"
+    },
+    {
+      "name": "Archblazepowderburntime",
+      "type": "itemextension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "archblazepowderburntime",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Nether/Fortress/Archblaze"
     }
   ],
   "variable_elements": [],
@@ -1186,6 +1295,7 @@
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModMenus.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModScreens.java",
       "src/main/java/net/mcreator/rubiesandrabies/network/MenuStateUpdateMessage.java",
+      "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModFuels.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModMobEffects.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModBlocks.java",
       "src/main/java/net/mcreator/rubiesandrabies/init/RubiesAndRabiesModItems.java",
@@ -1232,6 +1342,10 @@
                 "children": [
                   {
                     "name": "inferno enchantment",
+                    "children": []
+                  },
+                  {
+                    "name": "archblaze powder crafts",
                     "children": []
                   }
                 ]

@@ -6,7 +6,7 @@ import net.minecraft.world.item.Item;
 
 public class BlazecoreItem extends Item {
 	public BlazecoreItem(Item.Properties properties) {
-		super(properties.rarity(Rarity.RARE));
+		super(properties.rarity(Rarity.RARE).fireResistant());
 	}
 
 	@Override

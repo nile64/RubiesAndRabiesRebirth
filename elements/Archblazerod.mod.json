@@ -11,7 +11,9 @@
     "animations": [],
     "name": "Archblaze rod",
     "rarity": "COMMON",
-    "creativeTabs": [],
+    "creativeTabs": [
+      "COMBAT"
+    ],
     "stackSize": 64,
     "enchantability": 0,
     "useDuration": 0,
@@ -19,7 +21,7 @@
     "damageCount": 0,
     "recipeRemainder": "",
     "destroyAnyBlock": false,
-    "immuneToFire": false,
+    "immuneToFire": true,
     "isPiglinCurrency": false,
     "repairItems": [],
     "stayInGridWhenCrafting": false,
