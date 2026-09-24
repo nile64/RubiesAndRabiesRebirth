@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " a "
+  ],
+  "key": {
+    "a": "rubies_and_rabies:ancientscripts",
+    "b": "rubies_and_rabies:archblazepowder",
+    "c": "rubies_and_rabies:blazecore"
+  },
+  "result": {
+    "count": 1,
+    "id": "minecraft:enchanted_book",
+    "components": {
+      "minecraft:stored_enchantments": {
+        "rubies_and_rabies:infernal": 1
+      }
+    }
+  }
+}

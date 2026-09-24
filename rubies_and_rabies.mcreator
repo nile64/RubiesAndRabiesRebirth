@@ -1033,6 +1033,20 @@
         ]
       },
       "path": "~/Nether/Fortress/Archblaze/inferno enchantment"
+    },
+    {
+      "name": "Infernalbookenchantcraft",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "infernalbookenchantcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/rubies_and_rabies/recipe/infernalbookenchantcraft.json",
+          "src/main/resources/data/rubies_and_rabies/advancement/recipes/infernalbookenchantcraft.json"
+        ]
+      },
+      "path": "~/Nether/Fortress/Archblaze/inferno enchantment"
     }
   ],
   "variable_elements": [],
@@ -1151,8 +1165,8 @@
       "item.rubies_and_rabies.archblaze_spawn_egg": "Archblaze Spawn Egg",
       "item.rubies_and_rabies.archfirecharge": "Archfirecharge",
       "item.rubies_and_rabies.olden_door": "Olden Door",
-      "item.rubies_and_rabies.archblazerod": "Archblazerod",
-      "item.rubies_and_rabies.archblazepowder": "Archblazepowder",
+      "item.rubies_and_rabies.archblazerod": "Archblaze rod",
+      "item.rubies_and_rabies.archblazepowder": "Archblaze powder",
       "item.rubies_and_rabies.blazecore": "Blazecore",
       "item.rubies_and_rabies.ancientscripts": "Ancient Scripts",
       "effect.rubies_and_rabies.inferno": "Inferno",
